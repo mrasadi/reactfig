@@ -34,3 +34,4 @@ playwright/.cache/
 .DS_Store
 .vscode/
 *.log
+!packages/figma-plugin/test/fixtures/**/*.rfd
