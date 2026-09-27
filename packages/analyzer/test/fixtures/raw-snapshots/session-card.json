@@ -1,0 +1,129 @@
+{
+  "tag": "div",
+  "attributes": { "className": "card" },
+  "textContent": null,
+  "rect": { "x": 0, "y": 0, "width": 320, "height": 220 },
+  "computedStyle": {
+    "display": "block",
+    "position": "static",
+    "padding-top": "16px",
+    "padding-right": "16px",
+    "padding-bottom": "16px",
+    "padding-left": "16px",
+    "background-color": "rgb(255, 255, 255)",
+    "background-image": "none",
+    "border-top-width": "1px",
+    "border-top-style": "solid",
+    "border-top-color": "rgb(230, 230, 230)",
+    "border-radius": "12px",
+    "box-shadow": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "font-family": "Inter",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "normal",
+    "letter-spacing": "normal",
+    "text-align": "left",
+    "color": "rgb(20, 20, 20)"
+  },
+  "naturalWidth": null,
+  "naturalHeight": null,
+  "componentPath": ["SessionCard", "Card"],
+  "children": [
+    {
+      "tag": "h3",
+      "attributes": { "className": "card-title" },
+      "textContent": "Amir Hosseini",
+      "rect": { "x": 16, "y": 16, "width": 288, "height": 28 },
+      "computedStyle": {
+        "display": "block",
+        "font-family": "Inter",
+        "font-size": "20px",
+        "font-weight": "700",
+        "line-height": "28px",
+        "letter-spacing": "-0.2px",
+        "text-align": "left",
+        "color": "rgb(17, 17, 17)",
+        "opacity": "1",
+        "overflow": "visible"
+      },
+      "naturalWidth": null,
+      "naturalHeight": null,
+      "componentPath": ["SessionCard", "Card"],
+      "children": []
+    },
+    {
+      "tag": "div",
+      "attributes": { "className": "session-card-row" },
+      "textContent": null,
+      "rect": { "x": 16, "y": 60, "width": 288, "height": 144 },
+      "computedStyle": {
+        "display": "grid",
+        "position": "static",
+        "grid-template-columns": "80px 1fr",
+        "grid-template-rows": "auto auto",
+        "grid-auto-flow": "row",
+        "gap": "12px",
+        "row-gap": "12px",
+        "column-gap": "12px",
+        "padding-top": "0px",
+        "padding-right": "0px",
+        "padding-bottom": "0px",
+        "padding-left": "0px",
+        "opacity": "1",
+        "overflow": "visible"
+      },
+      "naturalWidth": null,
+      "naturalHeight": null,
+      "componentPath": ["SessionCard"],
+      "children": [
+        {
+          "tag": "img",
+          "attributes": { "className": "avatar", "src": "/avatars/amir.png", "alt": "Amir Hosseini" },
+          "textContent": null,
+          "rect": { "x": 16, "y": 60, "width": 80, "height": 80 },
+          "computedStyle": {
+            "display": "block",
+            "grid-column": "1 / 2",
+            "grid-row": "1 / 3",
+            "border-radius": "40px",
+            "opacity": "1",
+            "overflow": "hidden"
+          },
+          "naturalWidth": 256,
+          "naturalHeight": 256,
+          "componentPath": ["SessionCard", "Avatar"],
+          "children": []
+        },
+        {
+          "tag": "span",
+          "attributes": { "className": "badge badge-success" },
+          "textContent": "completed",
+          "rect": { "x": 108, "y": 60, "width": 90, "height": 28 },
+          "computedStyle": {
+            "display": "inline-block",
+            "grid-column": "2 / 3",
+            "grid-row": "1 / 2",
+            "background-color": "rgb(20, 168, 100)",
+            "border-radius": "14px",
+            "padding-top": "4px",
+            "padding-right": "10px",
+            "padding-bottom": "4px",
+            "padding-left": "10px",
+            "font-family": "Inter",
+            "font-size": "13px",
+            "font-weight": "600",
+            "color": "rgb(255, 255, 255)",
+            "opacity": "1",
+            "overflow": "visible"
+          },
+          "naturalWidth": null,
+          "naturalHeight": null,
+          "componentPath": ["SessionCard", "Badge"],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

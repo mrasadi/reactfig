@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://reactfig.dev/schema/rfd-manifest/v1.json",
+  "title": "ReactFig .rfd artifact manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "artifactFormat",
+    "artifactVersion",
+    "designIrVersion",
+    "generator",
+    "createdAt",
+    "root",
+    "componentCount",
+    "assets"
+  ],
+  "properties": {
+    "$schema": { "const": "https://reactfig.dev/schema/rfd-manifest/v1.json" },
+    "artifactFormat": { "const": "reactfig-design-artifact" },
+    "artifactVersion": { "const": "v1" },
+    "designIrVersion": { "const": "design-ir/v1" },
+    "generator": { "type": "string", "minLength": 1 },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "root": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["documentId", "documentName", "componentId", "componentKind"],
+      "properties": {
+        "documentId": { "type": "string", "minLength": 1 },
+        "documentName": { "type": "string", "minLength": 1 },
+        "componentId": { "type": "string", "minLength": 1 },
+        "componentKind": { "enum": ["component", "componentSet"] }
+      }
+    },
+    "componentCount": { "type": "integer", "minimum": 0 },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "path", "mimeType", "embedded"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "path": { "type": "string", "minLength": 1 },
+          "mimeType": { "type": "string", "minLength": 1 },
+          "width": { "type": "number" },
+          "height": { "type": "number" },
+          "embedded": { "type": "boolean" },
+          "sizeBytes": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "compatibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "minPluginVersion": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "componentDisplayName": "StatCard",
+  "nodeAnnotations": [
+    {
+      "path": [],
+      "rationale": "Wrapper element containing the card content.",
+      "semanticType": "group"
+    },
+    {
+      "path": [
+        0
+      ],
+      "rationale": "Primary value display, styled as a large header.",
+      "semanticType": "text"
+    },
+    {
+      "path": [
+        1
+      ],
+      "rationale": "Secondary label text.",
+      "semanticType": "text"
+    }
+  ],
+  "notes": "The component `StatCard` uses a vertical block layout. It accepts `value`, `label`, and `tone` props. The text color for the value is constant dark grey (`rgb(22, 24, 29)`) regardless of tone (visible in neutral/success comparisons), suggesting tone affects background/iconography not fully captured in these specific text-focused queries. (tool-call budget of 2 reached before the model signaled completion)",
+  "variantAxes": [
+    {
+      "confirmedValues": [
+        "neutral",
+        "success",
+        "warning"
+      ],
+      "propName": "tone",
+      "rationale": "Defined by source prop 'tone' with literal values."
+    }
+  ]
+}

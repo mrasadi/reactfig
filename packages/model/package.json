@@ -1,0 +1,16 @@
+{
+  "name": "@reactfig/model",
+  "version": "0.1.0",
+  "description": "ModelProvider interface plus OpenAI-compatible and Anthropic reference adapters. Model/provider-agnostic by design.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "ajv": "^8.16.0" },
+  "devDependencies": { "typescript": "^5.5.0", "vitest": "^2.0.0", "@types/node": "^22.0.0" }
+}

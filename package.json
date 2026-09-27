@@ -1,0 +1,37 @@
+{
+  "name": "reactfig",
+  "private": true,
+  "version": "0.1.0",
+  "description": "React-to-Figma design pipeline: deterministic inspection + AI analysis + a native Figma plugin, no Figma MCP dependency.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactfig/reactfig.git"
+  },
+  "homepage": "https://github.com/reactfig/reactfig#readme",
+  "bugs": {
+    "url": "https://github.com/reactfig/reactfig/issues"
+  },
+  "keywords": [
+    "react",
+    "figma",
+    "design-tools",
+    "codegen",
+    "design-system",
+    "mcp"
+  ],
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run build && pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "typecheck": "pnpm -r run typecheck"
+  },
+  "devDependencies": {
+    "playwright": "^1.46.0",
+    "typescript": "^5.5.0"
+  }
+}

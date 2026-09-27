@@ -1,0 +1,135 @@
+:root {
+  --rf-fg: #1a1a1a;
+  --rf-fg-muted: #6b6b6b;
+  --rf-border: #e0e0e0;
+  --rf-bg: #ffffff;
+  --rf-accent: #1c61fa;
+  --rf-danger: #d32f2f;
+  --rf-warning: #b06a00;
+  --rf-success: #1a8a4b;
+  --rf-radius: 6px;
+  font-family: Inter, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--rf-fg);
+  background: var(--rf-bg);
+  font-size: 12px;
+}
+
+.rf-app {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.rf-title {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.rf-dropzone {
+  border: 1px dashed var(--rf-border);
+  border-radius: var(--rf-radius);
+  padding: 20px 12px;
+  text-align: center;
+  color: var(--rf-fg-muted);
+  cursor: pointer;
+}
+
+.rf-dropzone:hover {
+  border-color: var(--rf-accent);
+  color: var(--rf-accent);
+}
+
+.rf-file-input {
+  display: none;
+}
+
+.rf-summary {
+  border: 1px solid var(--rf-border);
+  border-radius: var(--rf-radius);
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rf-summary-name {
+  font-weight: 600;
+}
+
+.rf-summary-row {
+  color: var(--rf-fg-muted);
+  display: flex;
+  justify-content: space-between;
+}
+
+.rf-button {
+  border: none;
+  border-radius: var(--rf-radius);
+  background: var(--rf-accent);
+  color: white;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.rf-button:disabled {
+  background: var(--rf-border);
+  color: var(--rf-fg-muted);
+  cursor: default;
+}
+
+.rf-button-secondary {
+  background: transparent;
+  color: var(--rf-fg);
+  border: 1px solid var(--rf-border);
+}
+
+.rf-error-list,
+.rf-warning-list {
+  margin: 0;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.rf-error-list {
+  color: var(--rf-danger);
+}
+
+.rf-warning-list {
+  color: var(--rf-warning);
+}
+
+.rf-progress-track {
+  height: 6px;
+  border-radius: 3px;
+  background: var(--rf-border);
+  overflow: hidden;
+}
+
+.rf-progress-fill {
+  height: 100%;
+  background: var(--rf-accent);
+  transition: width 120ms ease-out;
+}
+
+.rf-progress-label {
+  color: var(--rf-fg-muted);
+}
+
+.rf-success {
+  color: var(--rf-success);
+  font-weight: 600;
+}

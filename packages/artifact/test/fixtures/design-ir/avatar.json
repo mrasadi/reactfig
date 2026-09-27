@@ -1,0 +1,42 @@
+{
+  "$schema": "https://reactfig.dev/schema/design-ir/v1.json",
+  "version": "design-ir/v1",
+  "id": "doc_avatar",
+  "name": "Avatar example",
+  "meta": {
+    "generator": "@reactfig/analyzer ai-orchestration@0.1.0",
+    "generatedAt": "2026-08-19T12:00:00.000Z"
+  },
+  "assets": [{ "id": "asset_0", "path": "/avatars/amir.png", "mimeType": "image/png", "width": 256, "height": 256 }],
+  "components": [
+    {
+      "kind": "component",
+      "id": "comp_avatar",
+      "name": "Avatar",
+      "source": { "file": "src/components/Avatar.tsx", "export": "Avatar" },
+      "root": {
+        "type": "image",
+        "id": "node_avatar_image",
+        "name": "Avatar Image",
+        "bounds": { "x": 0, "y": 0, "width": 80, "height": 80 },
+        "assetId": "asset_0",
+        "cornerRadius": 40
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "page_examples",
+      "name": "Examples",
+      "children": [
+        {
+          "type": "instance",
+          "id": "node_avatar_instance",
+          "name": "Avatar",
+          "bounds": { "x": 0, "y": 0, "width": 80, "height": 80 },
+          "componentRef": { "kind": "component", "componentId": "comp_avatar" }
+        }
+      ]
+    }
+  ]
+}

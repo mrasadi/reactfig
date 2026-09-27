@@ -1,0 +1,134 @@
+{
+  "$schema": "https://reactfig.dev/schema/design-ir/v1.json",
+  "version": "design-ir/v1",
+  "id": "doc_button_example",
+  "name": "Button example",
+  "meta": {
+    "generator": "@reactfig/analyzer@0.1.0",
+    "generatedAt": "2026-08-19T12:00:00.000Z",
+    "sourceProject": { "name": "sample-react-app", "root": "examples/sample-react-app" }
+  },
+  "assets": [],
+  "components": [
+    {
+      "kind": "componentSet",
+      "id": "comp_button",
+      "name": "Button",
+      "variantProperties": [
+        { "name": "variant", "values": ["primary", "secondary"] },
+        { "name": "size", "values": ["medium", "large"] }
+      ],
+      "source": { "file": "src/components/Button.tsx", "export": "Button" },
+      "variants": [
+        {
+          "id": "comp_button_primary_large",
+          "propertyValues": { "variant": "primary", "size": "large" },
+          "source": {
+            "file": "src/components/Button.tsx",
+            "export": "Button",
+            "props": { "variant": "primary", "size": "large" }
+          },
+          "root": {
+            "type": "frame",
+            "id": "node_button_root",
+            "name": "Button",
+            "bounds": { "x": 0, "y": 0, "width": 160, "height": 48 },
+            "layout": {
+              "mode": "horizontal",
+              "gap": 8,
+              "padding": { "top": 12, "right": 24, "bottom": 12, "left": 24 },
+              "primaryAxisAlign": "center",
+              "counterAxisAlign": "center"
+            },
+            "fills": [{ "type": "solid", "color": { "r": 0.11, "g": 0.38, "b": 0.98, "a": 1 } }],
+            "cornerRadius": 8,
+            "effects": [
+              {
+                "type": "dropShadow",
+                "color": { "r": 0, "g": 0, "b": 0, "a": 0.15 },
+                "offsetX": 0,
+                "offsetY": 1,
+                "blur": 2
+              }
+            ],
+            "children": [
+              {
+                "type": "text",
+                "id": "node_button_label",
+                "name": "Label",
+                "bounds": { "x": 24, "y": 12, "width": 112, "height": 24 },
+                "characters": "Get started",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeight": { "unit": "percent", "value": 150 },
+                  "textAlign": "center"
+                },
+                "fills": [{ "type": "solid", "color": { "r": 1, "g": 1, "b": 1, "a": 1 } }]
+              }
+            ]
+          }
+        },
+        {
+          "id": "comp_button_secondary_medium",
+          "propertyValues": { "variant": "secondary", "size": "medium" },
+          "source": {
+            "file": "src/components/Button.tsx",
+            "export": "Button",
+            "props": { "variant": "secondary", "size": "medium" }
+          },
+          "root": {
+            "type": "frame",
+            "id": "node_button_root_secondary",
+            "name": "Button",
+            "bounds": { "x": 0, "y": 0, "width": 136, "height": 40 },
+            "layout": {
+              "mode": "horizontal",
+              "gap": 8,
+              "padding": { "top": 8, "right": 20, "bottom": 8, "left": 20 },
+              "primaryAxisAlign": "center",
+              "counterAxisAlign": "center"
+            },
+            "fills": [{ "type": "solid", "color": { "r": 1, "g": 1, "b": 1, "a": 1 } }],
+            "strokes": [{ "color": { "r": 0.11, "g": 0.38, "b": 0.98, "a": 1 }, "width": 1, "style": "solid" }],
+            "cornerRadius": 8,
+            "children": [
+              {
+                "type": "text",
+                "id": "node_button_label_secondary",
+                "name": "Label",
+                "bounds": { "x": 20, "y": 8, "width": 96, "height": 24 },
+                "characters": "Get started",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeight": { "unit": "percent", "value": 150 },
+                  "textAlign": "center"
+                },
+                "fills": [{ "type": "solid", "color": { "r": 0.11, "g": 0.38, "b": 0.98, "a": 1 } }]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "page_examples",
+      "name": "Examples",
+      "children": [
+        {
+          "type": "instance",
+          "id": "node_instance_1",
+          "name": "Button",
+          "bounds": { "x": 40, "y": 40, "width": 160, "height": 48 },
+          "componentRef": { "kind": "variant", "componentSetId": "comp_button", "variantId": "comp_button_primary_large" },
+          "source": { "file": "src/screens/Landing.tsx", "props": { "variant": "primary", "size": "large" } }
+        }
+      ]
+    }
+  ]
+}

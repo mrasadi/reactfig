@@ -1,0 +1,59 @@
+{
+  "tag": "button",
+  "attributes": {
+    "className": "btn btn-secondary btn-large"
+  },
+  "textContent": null,
+  "rect": {
+    "x": 40,
+    "y": 40,
+    "width": 180,
+    "height": 56
+  },
+  "computedStyle": {
+    "display": "flex",
+    "position": "static",
+    "flex-direction": "row",
+    "justify-content": "center",
+    "align-items": "center",
+    "flex-wrap": "nowrap",
+    "gap": "8px",
+    "row-gap": "8px",
+    "column-gap": "8px",
+    "padding-top": "16px",
+    "padding-right": "28px",
+    "padding-bottom": "16px",
+    "padding-left": "28px",
+    "background-color": "rgb(255, 255, 255)",
+    "background-image": "none",
+    "border-top-width": "1px",
+    "border-right-width": "1px",
+    "border-bottom-width": "1px",
+    "border-left-width": "1px",
+    "border-top-style": "solid",
+    "border-right-style": "solid",
+    "border-bottom-style": "solid",
+    "border-left-style": "solid",
+    "border-top-color": "rgb(28, 97, 250)",
+    "border-right-color": "rgb(28, 97, 250)",
+    "border-bottom-color": "rgb(28, 97, 250)",
+    "border-left-color": "rgb(28, 97, 250)",
+    "border-radius": "8px",
+    "box-shadow": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "font-family": "Inter",
+    "font-size": "18px",
+    "font-weight": "600",
+    "line-height": "24px",
+    "letter-spacing": "normal",
+    "text-align": "center",
+    "color": "rgb(28, 97, 250)"
+  },
+  "naturalWidth": null,
+  "naturalHeight": null,
+  "children": [],
+  "componentPath": [
+    "Button"
+  ]
+}

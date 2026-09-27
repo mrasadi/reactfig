@@ -1,0 +1,78 @@
+{
+  "$schema": "https://reactfig.dev/schema/design-ir/v1.json",
+  "version": "design-ir/v1",
+  "id": "doc_sessioncard",
+  "name": "SessionCard example",
+  "meta": {
+    "generator": "@reactfig/analyzer ai-orchestration@0.1.0",
+    "generatedAt": "2026-08-19T12:00:00.000Z",
+    "sourceProject": { "name": "sample-react-app", "root": "examples/sample-react-app" }
+  },
+  "assets": [],
+  "components": [
+    {
+      "kind": "component",
+      "id": "comp_sessioncard",
+      "name": "SessionCard",
+      "source": { "file": "src/components/SessionCard.tsx", "export": "SessionCard" },
+      "root": {
+        "type": "frame",
+        "id": "node_card_root",
+        "name": "card",
+        "bounds": { "x": 0, "y": 0, "width": 320, "height": 220 },
+        "fills": [{ "type": "solid", "color": { "r": 1, "g": 1, "b": 1, "a": 1 } }],
+        "strokes": [{ "color": { "r": 0.9, "g": 0.9, "b": 0.9, "a": 1 }, "width": 1, "style": "solid" }],
+        "cornerRadius": 12,
+        "children": [
+          {
+            "type": "text",
+            "id": "node_card_title",
+            "name": "Title",
+            "bounds": { "x": 16, "y": 16, "width": 288, "height": 28 },
+            "characters": "Amir Hosseini",
+            "typography": { "fontFamily": "Inter", "fontWeight": 700, "fontSize": 20, "textAlign": "left" },
+            "fills": [{ "type": "solid", "color": { "r": 0.07, "g": 0.07, "b": 0.07, "a": 1 } }]
+          },
+          {
+            "type": "frame",
+            "id": "node_row",
+            "name": "session-card-row",
+            "bounds": { "x": 16, "y": 60, "width": 288, "height": 144 },
+            "layout": { "mode": "none" },
+            "children": [
+              {
+                "type": "instance",
+                "id": "node_avatar_instance",
+                "name": "Avatar",
+                "bounds": { "x": 16, "y": 60, "width": 80, "height": 80 },
+                "componentRef": { "kind": "component", "componentId": "external:Avatar" }
+              },
+              {
+                "type": "instance",
+                "id": "node_badge_instance",
+                "name": "Badge",
+                "bounds": { "x": 108, "y": 60, "width": 90, "height": 28 },
+                "componentRef": { "kind": "component", "componentId": "external:Badge" }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "page_examples",
+      "name": "Examples",
+      "children": [
+        {
+          "type": "instance",
+          "id": "node_sessioncard_instance",
+          "name": "SessionCard",
+          "bounds": { "x": 0, "y": 0, "width": 320, "height": 220 },
+          "componentRef": { "kind": "component", "componentId": "comp_sessioncard" }
+        }
+      ]
+    }
+  ]
+}

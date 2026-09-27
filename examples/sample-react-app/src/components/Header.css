@@ -1,0 +1,41 @@
+.dashboard-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.dashboard-header-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dashboard-header-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--color-text);
+}
+
+.dashboard-header-subtitle {
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.dashboard-header-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dashboard-header-username {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .dashboard-header-title {
+    font-size: 22px;
+  }
+}

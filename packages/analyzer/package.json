@@ -1,0 +1,22 @@
+{
+  "name": "@reactfig/analyzer",
+  "version": "0.1.0",
+  "description": "Deterministic React/DOM/CSS inspection (Playwright + TS AST) plus AI-assisted analysis that resolves into Design IR fragments.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@reactfig/core": "workspace:*",
+    "@reactfig/model": "workspace:*",
+    "playwright": "^1.46.0",
+    "ts-morph": "^23.0.0",
+    "typescript": "^5.5.0"
+  },
+  "devDependencies": { "vitest": "^2.0.0", "@reactfig/artifact": "workspace:*", "@types/node": "^22.0.0" }
+}

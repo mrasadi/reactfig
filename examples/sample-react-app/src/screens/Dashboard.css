@@ -1,0 +1,53 @@
+/* Page-level CSS Grid: fixed-width sidebar column + fluid main column.
+   This is the "CSS Grid" requirement — deliberately at the page level,
+   distinct from the session-card grid below, so the pipeline exercises
+   Grid in more than one place. */
+.dashboard-page {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  min-height: 100vh;
+}
+
+.dashboard-main {
+  padding: 28px 32px;
+}
+
+.dashboard-stats {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.dashboard-section-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+/* Auto-fit CSS Grid for the session cards — a second, independent Grid
+   usage with a different track configuration than the page layout. */
+.dashboard-session-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+/* Responsive: below 768px the page grid collapses to a single column
+   (sidebar becomes a horizontal bar via Sidebar.css's own media query,
+   stacked above the main content instead of beside it), and the session
+   card grid drops to one column. */
+@media (max-width: 768px) {
+  .dashboard-page {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-main {
+    padding: 20px;
+  }
+
+  .dashboard-session-grid {
+    grid-template-columns: 1fr;
+  }
+}

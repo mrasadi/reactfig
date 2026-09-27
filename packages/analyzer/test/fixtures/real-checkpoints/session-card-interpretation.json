@@ -1,0 +1,114 @@
+{
+  "componentDisplayName": "Session Card",
+  "nodeAnnotations": [
+    {
+      "path": [
+        0,
+        0,
+        1
+      ],
+      "rationale": "Top-level container for the session info. Bounding box `272x173` defines the full card size.",
+      "semanticName": "card"
+    },
+    {
+      "path": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "rationale": "Flex container holding the avatar and user details. Height is `64`. Contains flex-row layout of Avatar and User Info.",
+      "semanticName": "header"
+    },
+    {
+      "path": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "rationale": "Image placeholder with overlapping status indicator dot. Width/Height `48x48`. The DOM shows a blue circle background for the avatar.",
+      "semanticName": "avatar"
+    },
+    {
+      "path": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "rationale": "Column layout containing name, time, and status badge. Width `101.5625`, Height `64`.",
+      "semanticName": "user-info"
+    },
+    {
+      "path": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "rationale": "Text element 'Amir Hosseini'. Height `18`. Corresponds to `learnerName` prop.",
+      "semanticName": "name"
+    },
+    {
+      "path": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "rationale": "Text element 'Today, 4:00 PM'. Height `15`. Corresponds to `scheduledFor` prop.",
+      "semanticName": "timestamp"
+    },
+    {
+      "path": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "rationale": "Pill-shaped badge showing status. Height `23`. Corresponds to `status` prop. Text and Background Color vary by variant.",
+      "semanticName": "status-badge"
+    },
+    {
+      "path": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "rationale": "Row of text 'Score: 7/9'. Height `16`. Corresponds to the optional `score` prop.",
+      "semanticName": "score"
+    },
+    {
+      "path": [
+        0,
+        0,
+        1,
+        3
+      ],
+      "rationale": "Button element 'View details'. Height `35`. Corresponds to `Button` sub-component. Has a blue border.",
+      "semanticName": "action-button"
+    }
+  ],
+  "notes": "The Avatar component includes an indicator dot (span) at the bottom-right corner, likely indicating presence or online status. The Badge variant styles are significant: 'scheduled' uses amber/orange (`rgb(176, 106, 0)`), while 'missed' uses danger/red (`rgb(211, 57, 47)`). Both have white text and borders. The default 'completed' badge is green. (tool-call budget of 2 reached before the model signaled completion)",
+  "variantAxes": [
+    {
+      "confirmedValues": [
+        "completed",
+        "scheduled",
+        "missed"
+      ],
+      "propName": "status",
+      "rationale": "The source types define 'status' as a union of these three literal strings. Captures for each status are provided. The Badge component is the primary element exhibiting this variant."
+    }
+  ]
+}

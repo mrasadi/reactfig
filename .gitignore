@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Test/coverage output
+coverage/
+
+# Local generated artifacts (design IR exports, packaged .rfd files) —
+# these belong in a target React project's own repo, not ReactFig's.
+/design/
+*.rfd
+!examples/sample-artifacts/**/*.rfd
+!docs/e2e/**/*.rfd
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Authenticated browser state (see packages/mcp/README.md,
+# "Authenticated development apps") — never commit real session
+# cookies/localStorage.
+*.storage-state.json
+.reactfig
+# Local env / secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+.vscode/
+*.log

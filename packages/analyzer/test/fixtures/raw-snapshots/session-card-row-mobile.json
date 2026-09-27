@@ -1,0 +1,36 @@
+{
+  "tag": "div",
+  "attributes": {
+    "className": "session-card-row"
+  },
+  "textContent": null,
+  "rect": {
+    "x": 8,
+    "y": 60,
+    "width": 160,
+    "height": 220
+  },
+  "computedStyle": {
+    "display": "flex",
+    "position": "static",
+    "flex-direction": "column",
+    "justify-content": "flex-start",
+    "align-items": "flex-start",
+    "flex-wrap": "nowrap",
+    "gap": "12px",
+    "row-gap": "12px",
+    "column-gap": "12px",
+    "padding-top": "0px",
+    "padding-right": "0px",
+    "padding-bottom": "0px",
+    "padding-left": "0px",
+    "opacity": "1",
+    "overflow": "visible"
+  },
+  "naturalWidth": null,
+  "naturalHeight": null,
+  "children": [],
+  "componentPath": [
+    "SessionCard"
+  ]
+}

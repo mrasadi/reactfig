@@ -1,0 +1,1278 @@
+{
+  "captures": [
+    {
+      "capturedAt": "2026-09-03T08:38:30.472Z",
+      "capturedUrl": "http://localhost:5174/",
+      "contextScreenshot": {
+        "height": 900,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/StatCard-default-context.png",
+        "width": 1440
+      },
+      "dom": {
+        "attributes": {
+          "className": "stat-card stat-card-neutral"
+        },
+        "bounds": {
+          "height": 77,
+          "width": 368,
+          "x": 272,
+          "y": 102
+        },
+        "children": [
+          {
+            "attributes": {
+              "className": "stat-card-value"
+            },
+            "bounds": {
+              "height": 28,
+              "width": 331,
+              "x": 292,
+              "y": 117
+            },
+            "children": [],
+            "componentPath": [
+              "StatCard"
+            ],
+            "image": null,
+            "isComponentRoot": false,
+            "style": {
+              "backgroundColor": {
+                "parsed": {
+                  "a": 0,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "raw": "rgba(0, 0, 0, 0)"
+              },
+              "backgroundImage": null,
+              "backgroundImageUrl": null,
+              "border": null,
+              "boxShadow": null,
+              "cornerRadius": {
+                "parsedPx": 0,
+                "raw": "0px"
+              },
+              "display": "block",
+              "flex": null,
+              "grid": null,
+              "gridChildPlacement": null,
+              "layoutMode": "block",
+              "margin": null,
+              "opacity": 1,
+              "overflow": "visible",
+              "padding": null,
+              "position": "static",
+              "typography": {
+                "color": {
+                  "parsed": {
+                    "a": 1,
+                    "b": 0.11372549019607843,
+                    "g": 0.09411764705882353,
+                    "r": 0.08627450980392157
+                  },
+                  "raw": "rgb(22, 24, 29)"
+                },
+                "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                "fontSizePx": 24,
+                "fontStyle": "normal",
+                "fontWeight": "700",
+                "letterSpacing": "normal",
+                "letterSpacingPx": null,
+                "lineHeight": "normal",
+                "lineHeightPx": null,
+                "textAlign": "start",
+                "textOverflow": "clip",
+                "whiteSpace": "normal"
+              },
+              "zIndex": null
+            },
+            "tag": "p",
+            "textContent": "12"
+          },
+          {
+            "attributes": {
+              "className": "stat-card-label"
+            },
+            "bounds": {
+              "height": 15,
+              "width": 331,
+              "x": 292,
+              "y": 149
+            },
+            "children": [],
+            "componentPath": [
+              "StatCard"
+            ],
+            "image": null,
+            "isComponentRoot": false,
+            "style": {
+              "backgroundColor": {
+                "parsed": {
+                  "a": 0,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "raw": "rgba(0, 0, 0, 0)"
+              },
+              "backgroundImage": null,
+              "backgroundImageUrl": null,
+              "border": null,
+              "boxShadow": null,
+              "cornerRadius": {
+                "parsedPx": 0,
+                "raw": "0px"
+              },
+              "display": "block",
+              "flex": null,
+              "grid": null,
+              "gridChildPlacement": null,
+              "layoutMode": "block",
+              "margin": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 4
+              },
+              "opacity": 1,
+              "overflow": "visible",
+              "padding": null,
+              "position": "static",
+              "typography": {
+                "color": {
+                  "parsed": {
+                    "a": 1,
+                    "b": 0.5019607843137255,
+                    "g": 0.4470588235294118,
+                    "r": 0.4196078431372549
+                  },
+                  "raw": "rgb(107, 114, 128)"
+                },
+                "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                "fontSizePx": 12,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": "normal",
+                "letterSpacingPx": null,
+                "lineHeight": "normal",
+                "lineHeightPx": null,
+                "textAlign": "start",
+                "textOverflow": "clip",
+                "whiteSpace": "normal"
+              },
+              "zIndex": null
+            },
+            "tag": "p",
+            "textContent": "Sessions this week"
+          }
+        ],
+        "componentPath": [
+          "StatCard"
+        ],
+        "image": null,
+        "isComponentRoot": true,
+        "style": {
+          "backgroundColor": {
+            "parsed": {
+              "a": 1,
+              "b": 1,
+              "g": 1,
+              "r": 1
+            },
+            "raw": "rgb(255, 255, 255)"
+          },
+          "backgroundImage": null,
+          "backgroundImageUrl": null,
+          "border": {
+            "bottom": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "left": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.5019607843137255,
+                  "g": 0.4470588235294118,
+                  "r": 0.4196078431372549
+                },
+                "raw": "rgb(107, 114, 128)"
+              },
+              "style": "solid",
+              "widthPx": 4
+            },
+            "right": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "top": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            }
+          },
+          "boxShadow": null,
+          "cornerRadius": {
+            "parsedPx": 10,
+            "raw": "10px"
+          },
+          "display": "block",
+          "flex": null,
+          "grid": null,
+          "gridChildPlacement": null,
+          "layoutMode": "block",
+          "margin": null,
+          "opacity": 1,
+          "overflow": "visible",
+          "padding": {
+            "bottom": 14,
+            "left": 16,
+            "right": 16,
+            "top": 14
+          },
+          "position": "static",
+          "typography": {
+            "color": {
+              "parsed": {
+                "a": 1,
+                "b": 0.11372549019607843,
+                "g": 0.09411764705882353,
+                "r": 0.08627450980392157
+              },
+              "raw": "rgb(22, 24, 29)"
+            },
+            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+            "fontSizePx": 16,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "letterSpacingPx": null,
+            "lineHeight": "normal",
+            "lineHeightPx": null,
+            "textAlign": "start",
+            "textOverflow": "clip",
+            "whiteSpace": "normal"
+          },
+          "zIndex": null
+        },
+        "tag": "div",
+        "textContent": null
+      },
+      "label": "default",
+      "matchCount": 1,
+      "screenshot": {
+        "height": 77,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/StatCard-default.png",
+        "width": 368
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "viewportLabel": "desktop"
+    },
+    {
+      "capturedAt": "2026-09-03T08:38:30.596Z",
+      "capturedUrl": "http://localhost:5174/",
+      "contextScreenshot": {
+        "height": 900,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/StatCard-variant=tone_neutral-context.png",
+        "width": 1440
+      },
+      "dom": {
+        "attributes": {
+          "className": "stat-card stat-card-neutral"
+        },
+        "bounds": {
+          "height": 77,
+          "width": 368,
+          "x": 272,
+          "y": 102
+        },
+        "children": [
+          {
+            "attributes": {
+              "className": "stat-card-value"
+            },
+            "bounds": {
+              "height": 28,
+              "width": 331,
+              "x": 292,
+              "y": 117
+            },
+            "children": [],
+            "componentPath": [
+              "StatCard"
+            ],
+            "image": null,
+            "isComponentRoot": false,
+            "style": {
+              "backgroundColor": {
+                "parsed": {
+                  "a": 0,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "raw": "rgba(0, 0, 0, 0)"
+              },
+              "backgroundImage": null,
+              "backgroundImageUrl": null,
+              "border": null,
+              "boxShadow": null,
+              "cornerRadius": {
+                "parsedPx": 0,
+                "raw": "0px"
+              },
+              "display": "block",
+              "flex": null,
+              "grid": null,
+              "gridChildPlacement": null,
+              "layoutMode": "block",
+              "margin": null,
+              "opacity": 1,
+              "overflow": "visible",
+              "padding": null,
+              "position": "static",
+              "typography": {
+                "color": {
+                  "parsed": {
+                    "a": 1,
+                    "b": 0.11372549019607843,
+                    "g": 0.09411764705882353,
+                    "r": 0.08627450980392157
+                  },
+                  "raw": "rgb(22, 24, 29)"
+                },
+                "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                "fontSizePx": 24,
+                "fontStyle": "normal",
+                "fontWeight": "700",
+                "letterSpacing": "normal",
+                "letterSpacingPx": null,
+                "lineHeight": "normal",
+                "lineHeightPx": null,
+                "textAlign": "start",
+                "textOverflow": "clip",
+                "whiteSpace": "normal"
+              },
+              "zIndex": null
+            },
+            "tag": "p",
+            "textContent": "12"
+          },
+          {
+            "attributes": {
+              "className": "stat-card-label"
+            },
+            "bounds": {
+              "height": 15,
+              "width": 331,
+              "x": 292,
+              "y": 149
+            },
+            "children": [],
+            "componentPath": [
+              "StatCard"
+            ],
+            "image": null,
+            "isComponentRoot": false,
+            "style": {
+              "backgroundColor": {
+                "parsed": {
+                  "a": 0,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "raw": "rgba(0, 0, 0, 0)"
+              },
+              "backgroundImage": null,
+              "backgroundImageUrl": null,
+              "border": null,
+              "boxShadow": null,
+              "cornerRadius": {
+                "parsedPx": 0,
+                "raw": "0px"
+              },
+              "display": "block",
+              "flex": null,
+              "grid": null,
+              "gridChildPlacement": null,
+              "layoutMode": "block",
+              "margin": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 4
+              },
+              "opacity": 1,
+              "overflow": "visible",
+              "padding": null,
+              "position": "static",
+              "typography": {
+                "color": {
+                  "parsed": {
+                    "a": 1,
+                    "b": 0.5019607843137255,
+                    "g": 0.4470588235294118,
+                    "r": 0.4196078431372549
+                  },
+                  "raw": "rgb(107, 114, 128)"
+                },
+                "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                "fontSizePx": 12,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": "normal",
+                "letterSpacingPx": null,
+                "lineHeight": "normal",
+                "lineHeightPx": null,
+                "textAlign": "start",
+                "textOverflow": "clip",
+                "whiteSpace": "normal"
+              },
+              "zIndex": null
+            },
+            "tag": "p",
+            "textContent": "Sessions this week"
+          }
+        ],
+        "componentPath": [
+          "StatCard"
+        ],
+        "image": null,
+        "isComponentRoot": true,
+        "style": {
+          "backgroundColor": {
+            "parsed": {
+              "a": 1,
+              "b": 1,
+              "g": 1,
+              "r": 1
+            },
+            "raw": "rgb(255, 255, 255)"
+          },
+          "backgroundImage": null,
+          "backgroundImageUrl": null,
+          "border": {
+            "bottom": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "left": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.5019607843137255,
+                  "g": 0.4470588235294118,
+                  "r": 0.4196078431372549
+                },
+                "raw": "rgb(107, 114, 128)"
+              },
+              "style": "solid",
+              "widthPx": 4
+            },
+            "right": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "top": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            }
+          },
+          "boxShadow": null,
+          "cornerRadius": {
+            "parsedPx": 10,
+            "raw": "10px"
+          },
+          "display": "block",
+          "flex": null,
+          "grid": null,
+          "gridChildPlacement": null,
+          "layoutMode": "block",
+          "margin": null,
+          "opacity": 1,
+          "overflow": "visible",
+          "padding": {
+            "bottom": 14,
+            "left": 16,
+            "right": 16,
+            "top": 14
+          },
+          "position": "static",
+          "typography": {
+            "color": {
+              "parsed": {
+                "a": 1,
+                "b": 0.11372549019607843,
+                "g": 0.09411764705882353,
+                "r": 0.08627450980392157
+              },
+              "raw": "rgb(22, 24, 29)"
+            },
+            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+            "fontSizePx": 16,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "letterSpacingPx": null,
+            "lineHeight": "normal",
+            "lineHeightPx": null,
+            "textAlign": "start",
+            "textOverflow": "clip",
+            "whiteSpace": "normal"
+          },
+          "zIndex": null
+        },
+        "tag": "div",
+        "textContent": null
+      },
+      "label": "variant=tone:neutral",
+      "matchCount": 1,
+      "propValues": {
+        "tone": "neutral"
+      },
+      "screenshot": {
+        "height": 77,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/StatCard-variant=tone_neutral.png",
+        "width": 368
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "viewportLabel": "desktop"
+    },
+    {
+      "capturedAt": "2026-09-03T08:38:30.687Z",
+      "capturedUrl": "http://localhost:5174/",
+      "contextScreenshot": {
+        "height": 900,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/StatCard-variant=tone_success-context.png",
+        "width": 1440
+      },
+      "dom": {
+        "attributes": {
+          "className": "stat-card stat-card-success"
+        },
+        "bounds": {
+          "height": 77,
+          "width": 368,
+          "x": 656,
+          "y": 102
+        },
+        "children": [
+          {
+            "attributes": {
+              "className": "stat-card-value"
+            },
+            "bounds": {
+              "height": 28,
+              "width": 331,
+              "x": 676,
+              "y": 117
+            },
+            "children": [],
+            "componentPath": [
+              "StatCard"
+            ],
+            "image": null,
+            "isComponentRoot": false,
+            "style": {
+              "backgroundColor": {
+                "parsed": {
+                  "a": 0,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "raw": "rgba(0, 0, 0, 0)"
+              },
+              "backgroundImage": null,
+              "backgroundImageUrl": null,
+              "border": null,
+              "boxShadow": null,
+              "cornerRadius": {
+                "parsedPx": 0,
+                "raw": "0px"
+              },
+              "display": "block",
+              "flex": null,
+              "grid": null,
+              "gridChildPlacement": null,
+              "layoutMode": "block",
+              "margin": null,
+              "opacity": 1,
+              "overflow": "visible",
+              "padding": null,
+              "position": "static",
+              "typography": {
+                "color": {
+                  "parsed": {
+                    "a": 1,
+                    "b": 0.11372549019607843,
+                    "g": 0.09411764705882353,
+                    "r": 0.08627450980392157
+                  },
+                  "raw": "rgb(22, 24, 29)"
+                },
+                "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                "fontSizePx": 24,
+                "fontStyle": "normal",
+                "fontWeight": "700",
+                "letterSpacing": "normal",
+                "letterSpacingPx": null,
+                "lineHeight": "normal",
+                "lineHeightPx": null,
+                "textAlign": "start",
+                "textOverflow": "clip",
+                "whiteSpace": "normal"
+              },
+              "zIndex": null
+            },
+            "tag": "p",
+            "textContent": "6.8"
+          },
+          {
+            "attributes": {
+              "className": "stat-card-label"
+            },
+            "bounds": {
+              "height": 15,
+              "width": 331,
+              "x": 676,
+              "y": 149
+            },
+            "children": [],
+            "componentPath": [
+              "StatCard"
+            ],
+            "image": null,
+            "isComponentRoot": false,
+            "style": {
+              "backgroundColor": {
+                "parsed": {
+                  "a": 0,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "raw": "rgba(0, 0, 0, 0)"
+              },
+              "backgroundImage": null,
+              "backgroundImageUrl": null,
+              "border": null,
+              "boxShadow": null,
+              "cornerRadius": {
+                "parsedPx": 0,
+                "raw": "0px"
+              },
+              "display": "block",
+              "flex": null,
+              "grid": null,
+              "gridChildPlacement": null,
+              "layoutMode": "block",
+              "margin": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 4
+              },
+              "opacity": 1,
+              "overflow": "visible",
+              "padding": null,
+              "position": "static",
+              "typography": {
+                "color": {
+                  "parsed": {
+                    "a": 1,
+                    "b": 0.5019607843137255,
+                    "g": 0.4470588235294118,
+                    "r": 0.4196078431372549
+                  },
+                  "raw": "rgb(107, 114, 128)"
+                },
+                "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                "fontSizePx": 12,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": "normal",
+                "letterSpacingPx": null,
+                "lineHeight": "normal",
+                "lineHeightPx": null,
+                "textAlign": "start",
+                "textOverflow": "clip",
+                "whiteSpace": "normal"
+              },
+              "zIndex": null
+            },
+            "tag": "p",
+            "textContent": "Avg. speaking score"
+          }
+        ],
+        "componentPath": [
+          "StatCard"
+        ],
+        "image": null,
+        "isComponentRoot": true,
+        "style": {
+          "backgroundColor": {
+            "parsed": {
+              "a": 1,
+              "b": 1,
+              "g": 1,
+              "r": 1
+            },
+            "raw": "rgb(255, 255, 255)"
+          },
+          "backgroundImage": null,
+          "backgroundImageUrl": null,
+          "border": {
+            "bottom": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "left": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.39215686274509803,
+                  "g": 0.6588235294117647,
+                  "r": 0.0784313725490196
+                },
+                "raw": "rgb(20, 168, 100)"
+              },
+              "style": "solid",
+              "widthPx": 4
+            },
+            "right": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "top": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            }
+          },
+          "boxShadow": null,
+          "cornerRadius": {
+            "parsedPx": 10,
+            "raw": "10px"
+          },
+          "display": "block",
+          "flex": null,
+          "grid": null,
+          "gridChildPlacement": null,
+          "layoutMode": "block",
+          "margin": null,
+          "opacity": 1,
+          "overflow": "visible",
+          "padding": {
+            "bottom": 14,
+            "left": 16,
+            "right": 16,
+            "top": 14
+          },
+          "position": "static",
+          "typography": {
+            "color": {
+              "parsed": {
+                "a": 1,
+                "b": 0.11372549019607843,
+                "g": 0.09411764705882353,
+                "r": 0.08627450980392157
+              },
+              "raw": "rgb(22, 24, 29)"
+            },
+            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+            "fontSizePx": 16,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "letterSpacingPx": null,
+            "lineHeight": "normal",
+            "lineHeightPx": null,
+            "textAlign": "start",
+            "textOverflow": "clip",
+            "whiteSpace": "normal"
+          },
+          "zIndex": null
+        },
+        "tag": "div",
+        "textContent": null
+      },
+      "label": "variant=tone:success",
+      "matchCount": 1,
+      "propValues": {
+        "tone": "success"
+      },
+      "screenshot": {
+        "height": 77,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/StatCard-variant=tone_success.png",
+        "width": 368
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "viewportLabel": "desktop"
+    },
+    {
+      "capturedAt": "2026-09-03T08:38:30.774Z",
+      "capturedUrl": "http://localhost:5174/",
+      "contextScreenshot": {
+        "height": 900,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/StatCard-variant=tone_warning-context.png",
+        "width": 1440
+      },
+      "dom": {
+        "attributes": {
+          "className": "stat-card stat-card-warning"
+        },
+        "bounds": {
+          "height": 77,
+          "width": 368,
+          "x": 1040,
+          "y": 102
+        },
+        "children": [
+          {
+            "attributes": {
+              "className": "stat-card-value"
+            },
+            "bounds": {
+              "height": 28,
+              "width": 331,
+              "x": 1060,
+              "y": 117
+            },
+            "children": [],
+            "componentPath": [
+              "StatCard"
+            ],
+            "image": null,
+            "isComponentRoot": false,
+            "style": {
+              "backgroundColor": {
+                "parsed": {
+                  "a": 0,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "raw": "rgba(0, 0, 0, 0)"
+              },
+              "backgroundImage": null,
+              "backgroundImageUrl": null,
+              "border": null,
+              "boxShadow": null,
+              "cornerRadius": {
+                "parsedPx": 0,
+                "raw": "0px"
+              },
+              "display": "block",
+              "flex": null,
+              "grid": null,
+              "gridChildPlacement": null,
+              "layoutMode": "block",
+              "margin": null,
+              "opacity": 1,
+              "overflow": "visible",
+              "padding": null,
+              "position": "static",
+              "typography": {
+                "color": {
+                  "parsed": {
+                    "a": 1,
+                    "b": 0.11372549019607843,
+                    "g": 0.09411764705882353,
+                    "r": 0.08627450980392157
+                  },
+                  "raw": "rgb(22, 24, 29)"
+                },
+                "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                "fontSizePx": 24,
+                "fontStyle": "normal",
+                "fontWeight": "700",
+                "letterSpacing": "normal",
+                "letterSpacingPx": null,
+                "lineHeight": "normal",
+                "lineHeightPx": null,
+                "textAlign": "start",
+                "textOverflow": "clip",
+                "whiteSpace": "normal"
+              },
+              "zIndex": null
+            },
+            "tag": "p",
+            "textContent": "1"
+          },
+          {
+            "attributes": {
+              "className": "stat-card-label"
+            },
+            "bounds": {
+              "height": 15,
+              "width": 331,
+              "x": 1060,
+              "y": 149
+            },
+            "children": [],
+            "componentPath": [
+              "StatCard"
+            ],
+            "image": null,
+            "isComponentRoot": false,
+            "style": {
+              "backgroundColor": {
+                "parsed": {
+                  "a": 0,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "raw": "rgba(0, 0, 0, 0)"
+              },
+              "backgroundImage": null,
+              "backgroundImageUrl": null,
+              "border": null,
+              "boxShadow": null,
+              "cornerRadius": {
+                "parsedPx": 0,
+                "raw": "0px"
+              },
+              "display": "block",
+              "flex": null,
+              "grid": null,
+              "gridChildPlacement": null,
+              "layoutMode": "block",
+              "margin": {
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "top": 4
+              },
+              "opacity": 1,
+              "overflow": "visible",
+              "padding": null,
+              "position": "static",
+              "typography": {
+                "color": {
+                  "parsed": {
+                    "a": 1,
+                    "b": 0.5019607843137255,
+                    "g": 0.4470588235294118,
+                    "r": 0.4196078431372549
+                  },
+                  "raw": "rgb(107, 114, 128)"
+                },
+                "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                "fontSizePx": 12,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": "normal",
+                "letterSpacingPx": null,
+                "lineHeight": "normal",
+                "lineHeightPx": null,
+                "textAlign": "start",
+                "textOverflow": "clip",
+                "whiteSpace": "normal"
+              },
+              "zIndex": null
+            },
+            "tag": "p",
+            "textContent": "Missed sessions"
+          }
+        ],
+        "componentPath": [
+          "StatCard"
+        ],
+        "image": null,
+        "isComponentRoot": true,
+        "style": {
+          "backgroundColor": {
+            "parsed": {
+              "a": 1,
+              "b": 1,
+              "g": 1,
+              "r": 1
+            },
+            "raw": "rgb(255, 255, 255)"
+          },
+          "backgroundImage": null,
+          "backgroundImageUrl": null,
+          "border": {
+            "bottom": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "left": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0,
+                  "g": 0.41568627450980394,
+                  "r": 0.6901960784313725
+                },
+                "raw": "rgb(176, 106, 0)"
+              },
+              "style": "solid",
+              "widthPx": 4
+            },
+            "right": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "top": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            }
+          },
+          "boxShadow": null,
+          "cornerRadius": {
+            "parsedPx": 10,
+            "raw": "10px"
+          },
+          "display": "block",
+          "flex": null,
+          "grid": null,
+          "gridChildPlacement": null,
+          "layoutMode": "block",
+          "margin": null,
+          "opacity": 1,
+          "overflow": "visible",
+          "padding": {
+            "bottom": 14,
+            "left": 16,
+            "right": 16,
+            "top": 14
+          },
+          "position": "static",
+          "typography": {
+            "color": {
+              "parsed": {
+                "a": 1,
+                "b": 0.11372549019607843,
+                "g": 0.09411764705882353,
+                "r": 0.08627450980392157
+              },
+              "raw": "rgb(22, 24, 29)"
+            },
+            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+            "fontSizePx": 16,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "letterSpacingPx": null,
+            "lineHeight": "normal",
+            "lineHeightPx": null,
+            "textAlign": "start",
+            "textOverflow": "clip",
+            "whiteSpace": "normal"
+          },
+          "zIndex": null
+        },
+        "tag": "div",
+        "textContent": null
+      },
+      "label": "variant=tone:warning",
+      "matchCount": 1,
+      "propValues": {
+        "tone": "warning"
+      },
+      "screenshot": {
+        "height": 77,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/StatCard-variant=tone_warning.png",
+        "width": 368
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "viewportLabel": "desktop"
+    }
+  ],
+  "componentName": "StatCard",
+  "meta": {
+    "analyzerVersion": "@reactfig/mcp@0.1.0",
+    "limitations": [
+      "componentPath/isComponentRoot identify which component owns each DOM node (best-effort, via the React fiber _debugOwner chain — only available in development builds) but do not map to the specific JSX expression within that component's render — e.g. two sibling elements written in the same JSX block are distinguished by tree position, not individually labeled.",
+      "Text nodes with mixed inline styling in the rendered DOM are captured as a single ElementEvidence per DOM element; splitting into multiple Design IR Text nodes (per ADR 0005) happens in a later phase, not here.",
+      "Shadows (style.boxShadow) are preserved as a single raw CSS string per element; not parsed into structured, potentially multi-layer shadow evidence in v1."
+    ]
+  },
+  "source": {
+    "exportName": "StatCard",
+    "file": "/Users/dev/Code/reactfig/examples/sample-react-app/src/components/StatCard.tsx",
+    "importedComponents": [],
+    "jsx": {
+      "attributes": {
+        "className": true
+      },
+      "children": [
+        {
+          "attributes": {
+            "className": "stat-card-value"
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [],
+              "tag": "Expression"
+            }
+          ],
+          "tag": "p"
+        },
+        {
+          "attributes": {
+            "className": "stat-card-label"
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [],
+              "tag": "Expression"
+            }
+          ],
+          "tag": "p"
+        }
+      ],
+      "tag": "div"
+    },
+    "props": [
+      {
+        "isEventHandler": false,
+        "name": "label",
+        "required": true,
+        "tsType": "string"
+      },
+      {
+        "isEventHandler": false,
+        "name": "value",
+        "required": true,
+        "tsType": "string"
+      },
+      {
+        "isEventHandler": false,
+        "literalValues": [
+          "neutral",
+          "success",
+          "warning"
+        ],
+        "name": "tone",
+        "required": true,
+        "tsType": "\"neutral\" | \"success\" | \"warning\""
+      }
+    ]
+  }
+}

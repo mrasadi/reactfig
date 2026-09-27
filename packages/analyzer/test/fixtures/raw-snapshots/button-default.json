@@ -1,0 +1,81 @@
+{
+  "tag": "button",
+  "attributes": {
+    "className": "btn btn-primary btn-medium"
+  },
+  "textContent": null,
+  "rect": {
+    "x": 40,
+    "y": 40,
+    "width": 160,
+    "height": 48
+  },
+  "computedStyle": {
+    "display": "flex",
+    "position": "static",
+    "flex-direction": "row",
+    "justify-content": "center",
+    "align-items": "center",
+    "flex-wrap": "nowrap",
+    "gap": "8px",
+    "row-gap": "8px",
+    "column-gap": "8px",
+    "padding-top": "12px",
+    "padding-right": "24px",
+    "padding-bottom": "12px",
+    "padding-left": "24px",
+    "background-color": "rgb(28, 97, 250)",
+    "background-image": "none",
+    "border-top-width": "0px",
+    "border-top-style": "none",
+    "border-top-color": "rgb(0, 0, 0)",
+    "border-radius": "8px",
+    "box-shadow": "rgba(0, 0, 0, 0.15) 0px 1px 2px 0px",
+    "opacity": "1",
+    "overflow": "visible",
+    "font-family": "Inter",
+    "font-size": "16px",
+    "font-weight": "600",
+    "line-height": "24px",
+    "letter-spacing": "normal",
+    "text-align": "center",
+    "color": "rgb(255, 255, 255)"
+  },
+  "naturalWidth": null,
+  "naturalHeight": null,
+  "children": [
+    {
+      "tag": "span",
+      "attributes": {},
+      "textContent": "Get started",
+      "rect": {
+        "x": 64,
+        "y": 52,
+        "width": 112,
+        "height": 24
+      },
+      "computedStyle": {
+        "display": "inline",
+        "position": "static",
+        "font-family": "Inter",
+        "font-size": "16px",
+        "font-weight": "600",
+        "line-height": "24px",
+        "letter-spacing": "normal",
+        "text-align": "center",
+        "color": "rgb(255, 255, 255)",
+        "opacity": "1",
+        "overflow": "visible"
+      },
+      "naturalWidth": null,
+      "naturalHeight": null,
+      "children": [],
+      "componentPath": [
+        "Button"
+      ]
+    }
+  ],
+  "componentPath": [
+    "Button"
+  ]
+}

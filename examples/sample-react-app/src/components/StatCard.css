@@ -1,0 +1,28 @@
+.stat-card {
+  flex: 1 1 140px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  border-left: 4px solid var(--color-text-muted);
+}
+
+.stat-card-success {
+  border-left-color: var(--color-success);
+}
+
+.stat-card-warning {
+  border-left-color: var(--color-warning);
+}
+
+.stat-card-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.stat-card-label {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--color-text-muted);
+}

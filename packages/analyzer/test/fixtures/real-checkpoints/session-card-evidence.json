@@ -1,0 +1,4944 @@
+{
+  "captures": [
+    {
+      "capturedAt": "2026-09-03T08:46:59.262Z",
+      "capturedUrl": "http://localhost:5174/",
+      "contextScreenshot": {
+        "height": 900,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/SessionCard-default-context.png",
+        "width": 1440
+      },
+      "dom": {
+        "attributes": {
+          "className": "card"
+        },
+        "bounds": {
+          "height": 173,
+          "width": 272,
+          "x": 272,
+          "y": 239
+        },
+        "children": [
+          {
+            "attributes": {
+              "className": "card-body"
+            },
+            "bounds": {
+              "height": 139,
+              "width": 238,
+              "x": 289,
+              "y": 256
+            },
+            "children": [
+              {
+                "attributes": {
+                  "className": "session-card-row"
+                },
+                "bounds": {
+                  "height": 64,
+                  "width": 238,
+                  "x": 289,
+                  "y": 256
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "className": "session-card-avatar-wrap"
+                    },
+                    "bounds": {
+                      "height": 48,
+                      "width": 48,
+                      "x": 289,
+                      "y": 264
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "className": "avatar avatar-medium"
+                        },
+                        "bounds": {
+                          "height": 48,
+                          "width": 48,
+                          "x": 289,
+                          "y": 264
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard",
+                          "Avatar"
+                        ],
+                        "image": {
+                          "alt": "Amir Hosseini",
+                          "naturalHeight": 64,
+                          "naturalWidth": 64,
+                          "src": "http://localhost:5174/avatars/amir.png"
+                        },
+                        "isComponentRoot": true,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 0,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "raw": "rgba(0, 0, 0, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": null,
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 24,
+                            "raw": "50%"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "clip",
+                          "padding": null,
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.5019607843137255,
+                                "g": 0.4470588235294118,
+                                "r": 0.4196078431372549
+                              },
+                              "raw": "rgb(107, 114, 128)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 14,
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "img",
+                        "textContent": null
+                      },
+                      {
+                        "attributes": {
+                          "className": "session-card-status-dot session-card-status-dot-success"
+                        },
+                        "bounds": {
+                          "height": 14,
+                          "width": 14,
+                          "x": 325,
+                          "y": 300
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard"
+                        ],
+                        "image": null,
+                        "isComponentRoot": false,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.39215686274509803,
+                              "g": 0.6588235294117647,
+                              "r": 0.0784313725490196
+                            },
+                            "raw": "rgb(20, 168, 100)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": {
+                            "bottom": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "left": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "right": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "top": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            }
+                          },
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 7,
+                            "raw": "50%"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": null,
+                          "position": "absolute",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.5019607843137255,
+                                "g": 0.4470588235294118,
+                                "r": 0.4196078431372549
+                              },
+                              "raw": "rgb(107, 114, 128)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 14,
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "span",
+                        "textContent": null
+                      }
+                    ],
+                    "componentPath": [
+                      "SessionCard"
+                    ],
+                    "image": null,
+                    "isComponentRoot": false,
+                    "style": {
+                      "backgroundColor": {
+                        "parsed": {
+                          "a": 0,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "raw": "rgba(0, 0, 0, 0)"
+                      },
+                      "backgroundImage": null,
+                      "backgroundImageUrl": null,
+                      "border": null,
+                      "boxShadow": null,
+                      "cornerRadius": {
+                        "parsedPx": 0,
+                        "raw": "0px"
+                      },
+                      "display": "block",
+                      "flex": null,
+                      "grid": null,
+                      "gridChildPlacement": null,
+                      "layoutMode": "block",
+                      "margin": null,
+                      "opacity": 1,
+                      "overflow": "visible",
+                      "padding": null,
+                      "position": "relative",
+                      "typography": {
+                        "color": {
+                          "parsed": {
+                            "a": 1,
+                            "b": 0.5019607843137255,
+                            "g": 0.4470588235294118,
+                            "r": 0.4196078431372549
+                          },
+                          "raw": "rgb(107, 114, 128)"
+                        },
+                        "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                        "fontSizePx": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "letterSpacing": "normal",
+                        "letterSpacingPx": null,
+                        "lineHeight": "normal",
+                        "lineHeightPx": null,
+                        "textAlign": "start",
+                        "textOverflow": "clip",
+                        "whiteSpace": "normal"
+                      },
+                      "zIndex": null
+                    },
+                    "tag": "div",
+                    "textContent": null
+                  },
+                  {
+                    "attributes": {
+                      "className": "session-card-info"
+                    },
+                    "bounds": {
+                      "height": 64,
+                      "width": 101.5625,
+                      "x": 349,
+                      "y": 256
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "className": "session-card-name"
+                        },
+                        "bounds": {
+                          "height": 18,
+                          "width": 101.5625,
+                          "x": 349,
+                          "y": 256
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard"
+                        ],
+                        "image": null,
+                        "isComponentRoot": false,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 0,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "raw": "rgba(0, 0, 0, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": null,
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 0,
+                            "raw": "0px"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": null,
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.11372549019607843,
+                                "g": 0.09411764705882353,
+                                "r": 0.08627450980392157
+                              },
+                              "raw": "rgb(22, 24, 29)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 15,
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "p",
+                        "textContent": "Amir Hosseini"
+                      },
+                      {
+                        "attributes": {
+                          "className": "session-card-meta"
+                        },
+                        "bounds": {
+                          "height": 15,
+                          "width": 101.5625,
+                          "x": 349,
+                          "y": 278
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard"
+                        ],
+                        "image": null,
+                        "isComponentRoot": false,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 0,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "raw": "rgba(0, 0, 0, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": null,
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 0,
+                            "raw": "0px"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": null,
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.5019607843137255,
+                                "g": 0.4470588235294118,
+                                "r": 0.4196078431372549
+                              },
+                              "raw": "rgb(107, 114, 128)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 12,
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "p",
+                        "textContent": "Today, 4:00 PM"
+                      },
+                      {
+                        "attributes": {
+                          "className": "badge badge-success"
+                        },
+                        "bounds": {
+                          "height": 23,
+                          "width": 101.5625,
+                          "x": 349,
+                          "y": 297
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard",
+                          "Badge"
+                        ],
+                        "image": null,
+                        "isComponentRoot": true,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.39215686274509803,
+                              "g": 0.6588235294117647,
+                              "r": 0.0784313725490196
+                            },
+                            "raw": "rgb(20, 168, 100)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": {
+                            "bottom": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "left": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "right": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "top": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            }
+                          },
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 999,
+                            "raw": "999px"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": {
+                            "bottom": 2,
+                            "left": 8,
+                            "right": 8,
+                            "top": 2
+                          },
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 1,
+                                "g": 1,
+                                "r": 1
+                              },
+                              "raw": "rgb(255, 255, 255)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 12,
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "span",
+                        "textContent": "completed"
+                      }
+                    ],
+                    "componentPath": [
+                      "SessionCard"
+                    ],
+                    "image": null,
+                    "isComponentRoot": false,
+                    "style": {
+                      "backgroundColor": {
+                        "parsed": {
+                          "a": 0,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "raw": "rgba(0, 0, 0, 0)"
+                      },
+                      "backgroundImage": null,
+                      "backgroundImageUrl": null,
+                      "border": null,
+                      "boxShadow": null,
+                      "cornerRadius": {
+                        "parsedPx": 0,
+                        "raw": "0px"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "alignItems": "normal",
+                        "columnGap": 4,
+                        "direction": "column",
+                        "gap": 4,
+                        "justifyContent": "normal",
+                        "rowGap": 4,
+                        "wrap": "nowrap"
+                      },
+                      "grid": null,
+                      "gridChildPlacement": null,
+                      "layoutMode": "flex",
+                      "margin": null,
+                      "opacity": 1,
+                      "overflow": "visible",
+                      "padding": null,
+                      "position": "static",
+                      "typography": {
+                        "color": {
+                          "parsed": {
+                            "a": 1,
+                            "b": 0.5019607843137255,
+                            "g": 0.4470588235294118,
+                            "r": 0.4196078431372549
+                          },
+                          "raw": "rgb(107, 114, 128)"
+                        },
+                        "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                        "fontSizePx": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "letterSpacing": "normal",
+                        "letterSpacingPx": null,
+                        "lineHeight": "normal",
+                        "lineHeightPx": null,
+                        "textAlign": "start",
+                        "textOverflow": "clip",
+                        "whiteSpace": "normal"
+                      },
+                      "zIndex": null
+                    },
+                    "tag": "div",
+                    "textContent": null
+                  }
+                ],
+                "componentPath": [
+                  "SessionCard"
+                ],
+                "image": null,
+                "isComponentRoot": false,
+                "style": {
+                  "backgroundColor": {
+                    "parsed": {
+                      "a": 0,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "raw": "rgba(0, 0, 0, 0)"
+                  },
+                  "backgroundImage": null,
+                  "backgroundImageUrl": null,
+                  "border": null,
+                  "boxShadow": null,
+                  "cornerRadius": {
+                    "parsedPx": 0,
+                    "raw": "0px"
+                  },
+                  "display": "flex",
+                  "flex": {
+                    "alignItems": "center",
+                    "columnGap": 12,
+                    "direction": "row",
+                    "gap": 12,
+                    "justifyContent": "normal",
+                    "rowGap": 12,
+                    "wrap": "nowrap"
+                  },
+                  "grid": null,
+                  "gridChildPlacement": null,
+                  "layoutMode": "flex",
+                  "margin": null,
+                  "opacity": 1,
+                  "overflow": "visible",
+                  "padding": null,
+                  "position": "static",
+                  "typography": {
+                    "color": {
+                      "parsed": {
+                        "a": 1,
+                        "b": 0.5019607843137255,
+                        "g": 0.4470588235294118,
+                        "r": 0.4196078431372549
+                      },
+                      "raw": "rgb(107, 114, 128)"
+                    },
+                    "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                    "fontSizePx": 14,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "letterSpacing": "normal",
+                    "letterSpacingPx": null,
+                    "lineHeight": "normal",
+                    "lineHeightPx": null,
+                    "textAlign": "start",
+                    "textOverflow": "clip",
+                    "whiteSpace": "normal"
+                  },
+                  "zIndex": null
+                },
+                "tag": "div",
+                "textContent": null
+              },
+              {
+                "attributes": {
+                  "className": "session-card-score"
+                },
+                "bounds": {
+                  "height": 16,
+                  "width": 238,
+                  "x": 289,
+                  "y": 332
+                },
+                "children": [],
+                "componentPath": [
+                  "SessionCard"
+                ],
+                "image": null,
+                "isComponentRoot": false,
+                "style": {
+                  "backgroundColor": {
+                    "parsed": {
+                      "a": 0,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "raw": "rgba(0, 0, 0, 0)"
+                  },
+                  "backgroundImage": null,
+                  "backgroundImageUrl": null,
+                  "border": null,
+                  "boxShadow": null,
+                  "cornerRadius": {
+                    "parsedPx": 0,
+                    "raw": "0px"
+                  },
+                  "display": "block",
+                  "flex": null,
+                  "grid": null,
+                  "gridChildPlacement": null,
+                  "layoutMode": "block",
+                  "margin": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 12
+                  },
+                  "opacity": 1,
+                  "overflow": "visible",
+                  "padding": null,
+                  "position": "static",
+                  "typography": {
+                    "color": {
+                      "parsed": {
+                        "a": 1,
+                        "b": 0.11372549019607843,
+                        "g": 0.09411764705882353,
+                        "r": 0.08627450980392157
+                      },
+                      "raw": "rgb(22, 24, 29)"
+                    },
+                    "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                    "fontSizePx": 13,
+                    "fontStyle": "normal",
+                    "fontWeight": "600",
+                    "letterSpacing": "normal",
+                    "letterSpacingPx": null,
+                    "lineHeight": "normal",
+                    "lineHeightPx": null,
+                    "textAlign": "start",
+                    "textOverflow": "clip",
+                    "whiteSpace": "normal"
+                  },
+                  "zIndex": null
+                },
+                "tag": "p",
+                "textContent": "Score: 7/9"
+              },
+              {
+                "attributes": {
+                  "className": "session-card-actions"
+                },
+                "bounds": {
+                  "height": 35,
+                  "width": 238,
+                  "x": 289,
+                  "y": 360
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "className": "btn btn-secondary btn-medium"
+                    },
+                    "bounds": {
+                      "height": 35,
+                      "width": 115.671875,
+                      "x": 289,
+                      "y": 360
+                    },
+                    "children": [],
+                    "componentPath": [
+                      "SessionCard",
+                      "Button"
+                    ],
+                    "image": null,
+                    "isComponentRoot": true,
+                    "style": {
+                      "backgroundColor": {
+                        "parsed": {
+                          "a": 1,
+                          "b": 1,
+                          "g": 1,
+                          "r": 1
+                        },
+                        "raw": "rgb(255, 255, 255)"
+                      },
+                      "backgroundImage": null,
+                      "backgroundImageUrl": null,
+                      "border": {
+                        "bottom": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        },
+                        "left": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        },
+                        "right": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        },
+                        "top": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        }
+                      },
+                      "boxShadow": null,
+                      "cornerRadius": {
+                        "parsedPx": 10,
+                        "raw": "10px"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "alignItems": "center",
+                        "columnGap": 8,
+                        "direction": "row",
+                        "gap": 8,
+                        "justifyContent": "center",
+                        "rowGap": 8,
+                        "wrap": "nowrap"
+                      },
+                      "grid": null,
+                      "gridChildPlacement": null,
+                      "layoutMode": "flex",
+                      "margin": null,
+                      "opacity": 1,
+                      "overflow": "visible",
+                      "padding": {
+                        "bottom": 8,
+                        "left": 16,
+                        "right": 16,
+                        "top": 8
+                      },
+                      "position": "static",
+                      "typography": {
+                        "color": {
+                          "parsed": {
+                            "a": 1,
+                            "b": 0.9803921568627451,
+                            "g": 0.3803921568627451,
+                            "r": 0.10980392156862745
+                          },
+                          "raw": "rgb(28, 97, 250)"
+                        },
+                        "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                        "fontSizePx": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "600",
+                        "letterSpacing": "normal",
+                        "letterSpacingPx": null,
+                        "lineHeight": "normal",
+                        "lineHeightPx": null,
+                        "textAlign": "center",
+                        "textOverflow": "clip",
+                        "whiteSpace": "normal"
+                      },
+                      "zIndex": null
+                    },
+                    "tag": "button",
+                    "textContent": "View details"
+                  }
+                ],
+                "componentPath": [
+                  "SessionCard"
+                ],
+                "image": null,
+                "isComponentRoot": false,
+                "style": {
+                  "backgroundColor": {
+                    "parsed": {
+                      "a": 0,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "raw": "rgba(0, 0, 0, 0)"
+                  },
+                  "backgroundImage": null,
+                  "backgroundImageUrl": null,
+                  "border": null,
+                  "boxShadow": null,
+                  "cornerRadius": {
+                    "parsedPx": 0,
+                    "raw": "0px"
+                  },
+                  "display": "block",
+                  "flex": null,
+                  "grid": null,
+                  "gridChildPlacement": null,
+                  "layoutMode": "block",
+                  "margin": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 12
+                  },
+                  "opacity": 1,
+                  "overflow": "visible",
+                  "padding": null,
+                  "position": "static",
+                  "typography": {
+                    "color": {
+                      "parsed": {
+                        "a": 1,
+                        "b": 0.5019607843137255,
+                        "g": 0.4470588235294118,
+                        "r": 0.4196078431372549
+                      },
+                      "raw": "rgb(107, 114, 128)"
+                    },
+                    "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                    "fontSizePx": 14,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "letterSpacing": "normal",
+                    "letterSpacingPx": null,
+                    "lineHeight": "normal",
+                    "lineHeightPx": null,
+                    "textAlign": "start",
+                    "textOverflow": "clip",
+                    "whiteSpace": "normal"
+                  },
+                  "zIndex": null
+                },
+                "tag": "div",
+                "textContent": null
+              }
+            ],
+            "componentPath": [
+              "SessionCard"
+            ],
+            "image": null,
+            "isComponentRoot": false,
+            "style": {
+              "backgroundColor": {
+                "parsed": {
+                  "a": 0,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "raw": "rgba(0, 0, 0, 0)"
+              },
+              "backgroundImage": null,
+              "backgroundImageUrl": null,
+              "border": null,
+              "boxShadow": null,
+              "cornerRadius": {
+                "parsedPx": 0,
+                "raw": "0px"
+              },
+              "display": "block",
+              "flex": null,
+              "grid": null,
+              "gridChildPlacement": null,
+              "layoutMode": "block",
+              "margin": null,
+              "opacity": 1,
+              "overflow": "visible",
+              "padding": null,
+              "position": "static",
+              "typography": {
+                "color": {
+                  "parsed": {
+                    "a": 1,
+                    "b": 0.5019607843137255,
+                    "g": 0.4470588235294118,
+                    "r": 0.4196078431372549
+                  },
+                  "raw": "rgb(107, 114, 128)"
+                },
+                "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                "fontSizePx": 14,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": "normal",
+                "letterSpacingPx": null,
+                "lineHeight": "normal",
+                "lineHeightPx": null,
+                "textAlign": "start",
+                "textOverflow": "clip",
+                "whiteSpace": "normal"
+              },
+              "zIndex": null
+            },
+            "tag": "div",
+            "textContent": null
+          }
+        ],
+        "componentPath": [
+          "SessionCard"
+        ],
+        "image": null,
+        "isComponentRoot": true,
+        "style": {
+          "backgroundColor": {
+            "parsed": {
+              "a": 1,
+              "b": 1,
+              "g": 1,
+              "r": 1
+            },
+            "raw": "rgb(255, 255, 255)"
+          },
+          "backgroundImage": null,
+          "backgroundImageUrl": null,
+          "border": {
+            "bottom": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "left": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "right": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "top": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            }
+          },
+          "boxShadow": "rgba(16, 24, 40, 0.06) 0px 1px 2px 0px, rgba(16, 24, 40, 0.1) 0px 1px 3px 0px",
+          "cornerRadius": {
+            "parsedPx": 16,
+            "raw": "16px"
+          },
+          "display": "block",
+          "flex": null,
+          "grid": null,
+          "gridChildPlacement": null,
+          "layoutMode": "block",
+          "margin": null,
+          "opacity": 1,
+          "overflow": "visible",
+          "padding": {
+            "bottom": 16,
+            "left": 16,
+            "right": 16,
+            "top": 16
+          },
+          "position": "static",
+          "typography": {
+            "color": {
+              "parsed": {
+                "a": 1,
+                "b": 0.11372549019607843,
+                "g": 0.09411764705882353,
+                "r": 0.08627450980392157
+              },
+              "raw": "rgb(22, 24, 29)"
+            },
+            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+            "fontSizePx": 16,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "letterSpacingPx": null,
+            "lineHeight": "normal",
+            "lineHeightPx": null,
+            "textAlign": "start",
+            "textOverflow": "clip",
+            "whiteSpace": "normal"
+          },
+          "zIndex": null
+        },
+        "tag": "div",
+        "textContent": null
+      },
+      "label": "default",
+      "matchCount": 1,
+      "screenshot": {
+        "height": 173,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/SessionCard-default.png",
+        "width": 272
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "viewportLabel": "desktop"
+    },
+    {
+      "capturedAt": "2026-09-03T08:46:59.378Z",
+      "capturedUrl": "http://localhost:5174/",
+      "contextScreenshot": {
+        "height": 900,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/SessionCard-variant=status_completed-context.png",
+        "width": 1440
+      },
+      "dom": {
+        "attributes": {
+          "className": "card"
+        },
+        "bounds": {
+          "height": 173,
+          "width": 272,
+          "x": 272,
+          "y": 239
+        },
+        "children": [
+          {
+            "attributes": {
+              "className": "card-body"
+            },
+            "bounds": {
+              "height": 139,
+              "width": 238,
+              "x": 289,
+              "y": 256
+            },
+            "children": [
+              {
+                "attributes": {
+                  "className": "session-card-row"
+                },
+                "bounds": {
+                  "height": 64,
+                  "width": 238,
+                  "x": 289,
+                  "y": 256
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "className": "session-card-avatar-wrap"
+                    },
+                    "bounds": {
+                      "height": 48,
+                      "width": 48,
+                      "x": 289,
+                      "y": 264
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "className": "avatar avatar-medium"
+                        },
+                        "bounds": {
+                          "height": 48,
+                          "width": 48,
+                          "x": 289,
+                          "y": 264
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard",
+                          "Avatar"
+                        ],
+                        "image": {
+                          "alt": "Amir Hosseini",
+                          "naturalHeight": 64,
+                          "naturalWidth": 64,
+                          "src": "http://localhost:5174/avatars/amir.png"
+                        },
+                        "isComponentRoot": true,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 0,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "raw": "rgba(0, 0, 0, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": null,
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 24,
+                            "raw": "50%"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "clip",
+                          "padding": null,
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.5019607843137255,
+                                "g": 0.4470588235294118,
+                                "r": 0.4196078431372549
+                              },
+                              "raw": "rgb(107, 114, 128)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 14,
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "img",
+                        "textContent": null
+                      },
+                      {
+                        "attributes": {
+                          "className": "session-card-status-dot session-card-status-dot-success"
+                        },
+                        "bounds": {
+                          "height": 14,
+                          "width": 14,
+                          "x": 325,
+                          "y": 300
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard"
+                        ],
+                        "image": null,
+                        "isComponentRoot": false,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.39215686274509803,
+                              "g": 0.6588235294117647,
+                              "r": 0.0784313725490196
+                            },
+                            "raw": "rgb(20, 168, 100)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": {
+                            "bottom": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "left": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "right": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "top": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            }
+                          },
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 7,
+                            "raw": "50%"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": null,
+                          "position": "absolute",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.5019607843137255,
+                                "g": 0.4470588235294118,
+                                "r": 0.4196078431372549
+                              },
+                              "raw": "rgb(107, 114, 128)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 14,
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "span",
+                        "textContent": null
+                      }
+                    ],
+                    "componentPath": [
+                      "SessionCard"
+                    ],
+                    "image": null,
+                    "isComponentRoot": false,
+                    "style": {
+                      "backgroundColor": {
+                        "parsed": {
+                          "a": 0,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "raw": "rgba(0, 0, 0, 0)"
+                      },
+                      "backgroundImage": null,
+                      "backgroundImageUrl": null,
+                      "border": null,
+                      "boxShadow": null,
+                      "cornerRadius": {
+                        "parsedPx": 0,
+                        "raw": "0px"
+                      },
+                      "display": "block",
+                      "flex": null,
+                      "grid": null,
+                      "gridChildPlacement": null,
+                      "layoutMode": "block",
+                      "margin": null,
+                      "opacity": 1,
+                      "overflow": "visible",
+                      "padding": null,
+                      "position": "relative",
+                      "typography": {
+                        "color": {
+                          "parsed": {
+                            "a": 1,
+                            "b": 0.5019607843137255,
+                            "g": 0.4470588235294118,
+                            "r": 0.4196078431372549
+                          },
+                          "raw": "rgb(107, 114, 128)"
+                        },
+                        "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                        "fontSizePx": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "letterSpacing": "normal",
+                        "letterSpacingPx": null,
+                        "lineHeight": "normal",
+                        "lineHeightPx": null,
+                        "textAlign": "start",
+                        "textOverflow": "clip",
+                        "whiteSpace": "normal"
+                      },
+                      "zIndex": null
+                    },
+                    "tag": "div",
+                    "textContent": null
+                  },
+                  {
+                    "attributes": {
+                      "className": "session-card-info"
+                    },
+                    "bounds": {
+                      "height": 64,
+                      "width": 101.5625,
+                      "x": 349,
+                      "y": 256
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "className": "session-card-name"
+                        },
+                        "bounds": {
+                          "height": 18,
+                          "width": 101.5625,
+                          "x": 349,
+                          "y": 256
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard"
+                        ],
+                        "image": null,
+                        "isComponentRoot": false,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 0,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "raw": "rgba(0, 0, 0, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": null,
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 0,
+                            "raw": "0px"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": null,
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.11372549019607843,
+                                "g": 0.09411764705882353,
+                                "r": 0.08627450980392157
+                              },
+                              "raw": "rgb(22, 24, 29)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 15,
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "p",
+                        "textContent": "Amir Hosseini"
+                      },
+                      {
+                        "attributes": {
+                          "className": "session-card-meta"
+                        },
+                        "bounds": {
+                          "height": 15,
+                          "width": 101.5625,
+                          "x": 349,
+                          "y": 278
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard"
+                        ],
+                        "image": null,
+                        "isComponentRoot": false,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 0,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "raw": "rgba(0, 0, 0, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": null,
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 0,
+                            "raw": "0px"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": null,
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.5019607843137255,
+                                "g": 0.4470588235294118,
+                                "r": 0.4196078431372549
+                              },
+                              "raw": "rgb(107, 114, 128)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 12,
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "p",
+                        "textContent": "Today, 4:00 PM"
+                      },
+                      {
+                        "attributes": {
+                          "className": "badge badge-success"
+                        },
+                        "bounds": {
+                          "height": 23,
+                          "width": 101.5625,
+                          "x": 349,
+                          "y": 297
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard",
+                          "Badge"
+                        ],
+                        "image": null,
+                        "isComponentRoot": true,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.39215686274509803,
+                              "g": 0.6588235294117647,
+                              "r": 0.0784313725490196
+                            },
+                            "raw": "rgb(20, 168, 100)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": {
+                            "bottom": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "left": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "right": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "top": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            }
+                          },
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 999,
+                            "raw": "999px"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": {
+                            "bottom": 2,
+                            "left": 8,
+                            "right": 8,
+                            "top": 2
+                          },
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 1,
+                                "g": 1,
+                                "r": 1
+                              },
+                              "raw": "rgb(255, 255, 255)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 12,
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "span",
+                        "textContent": "completed"
+                      }
+                    ],
+                    "componentPath": [
+                      "SessionCard"
+                    ],
+                    "image": null,
+                    "isComponentRoot": false,
+                    "style": {
+                      "backgroundColor": {
+                        "parsed": {
+                          "a": 0,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "raw": "rgba(0, 0, 0, 0)"
+                      },
+                      "backgroundImage": null,
+                      "backgroundImageUrl": null,
+                      "border": null,
+                      "boxShadow": null,
+                      "cornerRadius": {
+                        "parsedPx": 0,
+                        "raw": "0px"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "alignItems": "normal",
+                        "columnGap": 4,
+                        "direction": "column",
+                        "gap": 4,
+                        "justifyContent": "normal",
+                        "rowGap": 4,
+                        "wrap": "nowrap"
+                      },
+                      "grid": null,
+                      "gridChildPlacement": null,
+                      "layoutMode": "flex",
+                      "margin": null,
+                      "opacity": 1,
+                      "overflow": "visible",
+                      "padding": null,
+                      "position": "static",
+                      "typography": {
+                        "color": {
+                          "parsed": {
+                            "a": 1,
+                            "b": 0.5019607843137255,
+                            "g": 0.4470588235294118,
+                            "r": 0.4196078431372549
+                          },
+                          "raw": "rgb(107, 114, 128)"
+                        },
+                        "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                        "fontSizePx": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "letterSpacing": "normal",
+                        "letterSpacingPx": null,
+                        "lineHeight": "normal",
+                        "lineHeightPx": null,
+                        "textAlign": "start",
+                        "textOverflow": "clip",
+                        "whiteSpace": "normal"
+                      },
+                      "zIndex": null
+                    },
+                    "tag": "div",
+                    "textContent": null
+                  }
+                ],
+                "componentPath": [
+                  "SessionCard"
+                ],
+                "image": null,
+                "isComponentRoot": false,
+                "style": {
+                  "backgroundColor": {
+                    "parsed": {
+                      "a": 0,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "raw": "rgba(0, 0, 0, 0)"
+                  },
+                  "backgroundImage": null,
+                  "backgroundImageUrl": null,
+                  "border": null,
+                  "boxShadow": null,
+                  "cornerRadius": {
+                    "parsedPx": 0,
+                    "raw": "0px"
+                  },
+                  "display": "flex",
+                  "flex": {
+                    "alignItems": "center",
+                    "columnGap": 12,
+                    "direction": "row",
+                    "gap": 12,
+                    "justifyContent": "normal",
+                    "rowGap": 12,
+                    "wrap": "nowrap"
+                  },
+                  "grid": null,
+                  "gridChildPlacement": null,
+                  "layoutMode": "flex",
+                  "margin": null,
+                  "opacity": 1,
+                  "overflow": "visible",
+                  "padding": null,
+                  "position": "static",
+                  "typography": {
+                    "color": {
+                      "parsed": {
+                        "a": 1,
+                        "b": 0.5019607843137255,
+                        "g": 0.4470588235294118,
+                        "r": 0.4196078431372549
+                      },
+                      "raw": "rgb(107, 114, 128)"
+                    },
+                    "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                    "fontSizePx": 14,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "letterSpacing": "normal",
+                    "letterSpacingPx": null,
+                    "lineHeight": "normal",
+                    "lineHeightPx": null,
+                    "textAlign": "start",
+                    "textOverflow": "clip",
+                    "whiteSpace": "normal"
+                  },
+                  "zIndex": null
+                },
+                "tag": "div",
+                "textContent": null
+              },
+              {
+                "attributes": {
+                  "className": "session-card-score"
+                },
+                "bounds": {
+                  "height": 16,
+                  "width": 238,
+                  "x": 289,
+                  "y": 332
+                },
+                "children": [],
+                "componentPath": [
+                  "SessionCard"
+                ],
+                "image": null,
+                "isComponentRoot": false,
+                "style": {
+                  "backgroundColor": {
+                    "parsed": {
+                      "a": 0,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "raw": "rgba(0, 0, 0, 0)"
+                  },
+                  "backgroundImage": null,
+                  "backgroundImageUrl": null,
+                  "border": null,
+                  "boxShadow": null,
+                  "cornerRadius": {
+                    "parsedPx": 0,
+                    "raw": "0px"
+                  },
+                  "display": "block",
+                  "flex": null,
+                  "grid": null,
+                  "gridChildPlacement": null,
+                  "layoutMode": "block",
+                  "margin": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 12
+                  },
+                  "opacity": 1,
+                  "overflow": "visible",
+                  "padding": null,
+                  "position": "static",
+                  "typography": {
+                    "color": {
+                      "parsed": {
+                        "a": 1,
+                        "b": 0.11372549019607843,
+                        "g": 0.09411764705882353,
+                        "r": 0.08627450980392157
+                      },
+                      "raw": "rgb(22, 24, 29)"
+                    },
+                    "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                    "fontSizePx": 13,
+                    "fontStyle": "normal",
+                    "fontWeight": "600",
+                    "letterSpacing": "normal",
+                    "letterSpacingPx": null,
+                    "lineHeight": "normal",
+                    "lineHeightPx": null,
+                    "textAlign": "start",
+                    "textOverflow": "clip",
+                    "whiteSpace": "normal"
+                  },
+                  "zIndex": null
+                },
+                "tag": "p",
+                "textContent": "Score: 7/9"
+              },
+              {
+                "attributes": {
+                  "className": "session-card-actions"
+                },
+                "bounds": {
+                  "height": 35,
+                  "width": 238,
+                  "x": 289,
+                  "y": 360
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "className": "btn btn-secondary btn-medium"
+                    },
+                    "bounds": {
+                      "height": 35,
+                      "width": 115.671875,
+                      "x": 289,
+                      "y": 360
+                    },
+                    "children": [],
+                    "componentPath": [
+                      "SessionCard",
+                      "Button"
+                    ],
+                    "image": null,
+                    "isComponentRoot": true,
+                    "style": {
+                      "backgroundColor": {
+                        "parsed": {
+                          "a": 1,
+                          "b": 1,
+                          "g": 1,
+                          "r": 1
+                        },
+                        "raw": "rgb(255, 255, 255)"
+                      },
+                      "backgroundImage": null,
+                      "backgroundImageUrl": null,
+                      "border": {
+                        "bottom": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        },
+                        "left": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        },
+                        "right": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        },
+                        "top": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        }
+                      },
+                      "boxShadow": null,
+                      "cornerRadius": {
+                        "parsedPx": 10,
+                        "raw": "10px"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "alignItems": "center",
+                        "columnGap": 8,
+                        "direction": "row",
+                        "gap": 8,
+                        "justifyContent": "center",
+                        "rowGap": 8,
+                        "wrap": "nowrap"
+                      },
+                      "grid": null,
+                      "gridChildPlacement": null,
+                      "layoutMode": "flex",
+                      "margin": null,
+                      "opacity": 1,
+                      "overflow": "visible",
+                      "padding": {
+                        "bottom": 8,
+                        "left": 16,
+                        "right": 16,
+                        "top": 8
+                      },
+                      "position": "static",
+                      "typography": {
+                        "color": {
+                          "parsed": {
+                            "a": 1,
+                            "b": 0.9803921568627451,
+                            "g": 0.3803921568627451,
+                            "r": 0.10980392156862745
+                          },
+                          "raw": "rgb(28, 97, 250)"
+                        },
+                        "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                        "fontSizePx": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "600",
+                        "letterSpacing": "normal",
+                        "letterSpacingPx": null,
+                        "lineHeight": "normal",
+                        "lineHeightPx": null,
+                        "textAlign": "center",
+                        "textOverflow": "clip",
+                        "whiteSpace": "normal"
+                      },
+                      "zIndex": null
+                    },
+                    "tag": "button",
+                    "textContent": "View details"
+                  }
+                ],
+                "componentPath": [
+                  "SessionCard"
+                ],
+                "image": null,
+                "isComponentRoot": false,
+                "style": {
+                  "backgroundColor": {
+                    "parsed": {
+                      "a": 0,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "raw": "rgba(0, 0, 0, 0)"
+                  },
+                  "backgroundImage": null,
+                  "backgroundImageUrl": null,
+                  "border": null,
+                  "boxShadow": null,
+                  "cornerRadius": {
+                    "parsedPx": 0,
+                    "raw": "0px"
+                  },
+                  "display": "block",
+                  "flex": null,
+                  "grid": null,
+                  "gridChildPlacement": null,
+                  "layoutMode": "block",
+                  "margin": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 12
+                  },
+                  "opacity": 1,
+                  "overflow": "visible",
+                  "padding": null,
+                  "position": "static",
+                  "typography": {
+                    "color": {
+                      "parsed": {
+                        "a": 1,
+                        "b": 0.5019607843137255,
+                        "g": 0.4470588235294118,
+                        "r": 0.4196078431372549
+                      },
+                      "raw": "rgb(107, 114, 128)"
+                    },
+                    "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                    "fontSizePx": 14,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "letterSpacing": "normal",
+                    "letterSpacingPx": null,
+                    "lineHeight": "normal",
+                    "lineHeightPx": null,
+                    "textAlign": "start",
+                    "textOverflow": "clip",
+                    "whiteSpace": "normal"
+                  },
+                  "zIndex": null
+                },
+                "tag": "div",
+                "textContent": null
+              }
+            ],
+            "componentPath": [
+              "SessionCard"
+            ],
+            "image": null,
+            "isComponentRoot": false,
+            "style": {
+              "backgroundColor": {
+                "parsed": {
+                  "a": 0,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "raw": "rgba(0, 0, 0, 0)"
+              },
+              "backgroundImage": null,
+              "backgroundImageUrl": null,
+              "border": null,
+              "boxShadow": null,
+              "cornerRadius": {
+                "parsedPx": 0,
+                "raw": "0px"
+              },
+              "display": "block",
+              "flex": null,
+              "grid": null,
+              "gridChildPlacement": null,
+              "layoutMode": "block",
+              "margin": null,
+              "opacity": 1,
+              "overflow": "visible",
+              "padding": null,
+              "position": "static",
+              "typography": {
+                "color": {
+                  "parsed": {
+                    "a": 1,
+                    "b": 0.5019607843137255,
+                    "g": 0.4470588235294118,
+                    "r": 0.4196078431372549
+                  },
+                  "raw": "rgb(107, 114, 128)"
+                },
+                "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                "fontSizePx": 14,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": "normal",
+                "letterSpacingPx": null,
+                "lineHeight": "normal",
+                "lineHeightPx": null,
+                "textAlign": "start",
+                "textOverflow": "clip",
+                "whiteSpace": "normal"
+              },
+              "zIndex": null
+            },
+            "tag": "div",
+            "textContent": null
+          }
+        ],
+        "componentPath": [
+          "SessionCard"
+        ],
+        "image": null,
+        "isComponentRoot": true,
+        "style": {
+          "backgroundColor": {
+            "parsed": {
+              "a": 1,
+              "b": 1,
+              "g": 1,
+              "r": 1
+            },
+            "raw": "rgb(255, 255, 255)"
+          },
+          "backgroundImage": null,
+          "backgroundImageUrl": null,
+          "border": {
+            "bottom": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "left": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "right": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "top": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            }
+          },
+          "boxShadow": "rgba(16, 24, 40, 0.06) 0px 1px 2px 0px, rgba(16, 24, 40, 0.1) 0px 1px 3px 0px",
+          "cornerRadius": {
+            "parsedPx": 16,
+            "raw": "16px"
+          },
+          "display": "block",
+          "flex": null,
+          "grid": null,
+          "gridChildPlacement": null,
+          "layoutMode": "block",
+          "margin": null,
+          "opacity": 1,
+          "overflow": "visible",
+          "padding": {
+            "bottom": 16,
+            "left": 16,
+            "right": 16,
+            "top": 16
+          },
+          "position": "static",
+          "typography": {
+            "color": {
+              "parsed": {
+                "a": 1,
+                "b": 0.11372549019607843,
+                "g": 0.09411764705882353,
+                "r": 0.08627450980392157
+              },
+              "raw": "rgb(22, 24, 29)"
+            },
+            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+            "fontSizePx": 16,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "letterSpacingPx": null,
+            "lineHeight": "normal",
+            "lineHeightPx": null,
+            "textAlign": "start",
+            "textOverflow": "clip",
+            "whiteSpace": "normal"
+          },
+          "zIndex": null
+        },
+        "tag": "div",
+        "textContent": null
+      },
+      "label": "variant=status:completed",
+      "matchCount": 1,
+      "propValues": {
+        "status": "completed"
+      },
+      "screenshot": {
+        "height": 173,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/SessionCard-variant=status_completed.png",
+        "width": 272
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "viewportLabel": "desktop"
+    },
+    {
+      "capturedAt": "2026-09-03T08:46:59.510Z",
+      "capturedUrl": "http://localhost:5174/",
+      "contextScreenshot": {
+        "height": 900,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/SessionCard-variant=status_scheduled-context.png",
+        "width": 1440
+      },
+      "dom": {
+        "attributes": {
+          "className": "card"
+        },
+        "bounds": {
+          "height": 173,
+          "width": 272,
+          "x": 560,
+          "y": 239
+        },
+        "children": [
+          {
+            "attributes": {
+              "className": "card-body"
+            },
+            "bounds": {
+              "height": 111,
+              "width": 238,
+              "x": 577,
+              "y": 256
+            },
+            "children": [
+              {
+                "attributes": {
+                  "className": "session-card-row"
+                },
+                "bounds": {
+                  "height": 64,
+                  "width": 238,
+                  "x": 577,
+                  "y": 256
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "className": "session-card-avatar-wrap"
+                    },
+                    "bounds": {
+                      "height": 48,
+                      "width": 48,
+                      "x": 577,
+                      "y": 264
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "className": "avatar avatar-medium"
+                        },
+                        "bounds": {
+                          "height": 48,
+                          "width": 48,
+                          "x": 577,
+                          "y": 264
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard",
+                          "Avatar"
+                        ],
+                        "image": {
+                          "alt": "Sara Ahmadi",
+                          "naturalHeight": 64,
+                          "naturalWidth": 64,
+                          "src": "http://localhost:5174/avatars/sara.png"
+                        },
+                        "isComponentRoot": true,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 0,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "raw": "rgba(0, 0, 0, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": null,
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 24,
+                            "raw": "50%"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "clip",
+                          "padding": null,
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.5019607843137255,
+                                "g": 0.4470588235294118,
+                                "r": 0.4196078431372549
+                              },
+                              "raw": "rgb(107, 114, 128)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 14,
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "img",
+                        "textContent": null
+                      },
+                      {
+                        "attributes": {
+                          "className": "session-card-status-dot session-card-status-dot-warning"
+                        },
+                        "bounds": {
+                          "height": 14,
+                          "width": 14,
+                          "x": 613,
+                          "y": 300
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard"
+                        ],
+                        "image": null,
+                        "isComponentRoot": false,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0.41568627450980394,
+                              "r": 0.6901960784313725
+                            },
+                            "raw": "rgb(176, 106, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": {
+                            "bottom": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "left": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "right": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "top": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            }
+                          },
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 7,
+                            "raw": "50%"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": null,
+                          "position": "absolute",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.5019607843137255,
+                                "g": 0.4470588235294118,
+                                "r": 0.4196078431372549
+                              },
+                              "raw": "rgb(107, 114, 128)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 14,
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "span",
+                        "textContent": null
+                      }
+                    ],
+                    "componentPath": [
+                      "SessionCard"
+                    ],
+                    "image": null,
+                    "isComponentRoot": false,
+                    "style": {
+                      "backgroundColor": {
+                        "parsed": {
+                          "a": 0,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "raw": "rgba(0, 0, 0, 0)"
+                      },
+                      "backgroundImage": null,
+                      "backgroundImageUrl": null,
+                      "border": null,
+                      "boxShadow": null,
+                      "cornerRadius": {
+                        "parsedPx": 0,
+                        "raw": "0px"
+                      },
+                      "display": "block",
+                      "flex": null,
+                      "grid": null,
+                      "gridChildPlacement": null,
+                      "layoutMode": "block",
+                      "margin": null,
+                      "opacity": 1,
+                      "overflow": "visible",
+                      "padding": null,
+                      "position": "relative",
+                      "typography": {
+                        "color": {
+                          "parsed": {
+                            "a": 1,
+                            "b": 0.5019607843137255,
+                            "g": 0.4470588235294118,
+                            "r": 0.4196078431372549
+                          },
+                          "raw": "rgb(107, 114, 128)"
+                        },
+                        "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                        "fontSizePx": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "letterSpacing": "normal",
+                        "letterSpacingPx": null,
+                        "lineHeight": "normal",
+                        "lineHeightPx": null,
+                        "textAlign": "start",
+                        "textOverflow": "clip",
+                        "whiteSpace": "normal"
+                      },
+                      "zIndex": null
+                    },
+                    "tag": "div",
+                    "textContent": null
+                  },
+                  {
+                    "attributes": {
+                      "className": "session-card-info"
+                    },
+                    "bounds": {
+                      "height": 64,
+                      "width": 116.109375,
+                      "x": 637,
+                      "y": 256
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "className": "session-card-name"
+                        },
+                        "bounds": {
+                          "height": 18,
+                          "width": 116.109375,
+                          "x": 637,
+                          "y": 256
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard"
+                        ],
+                        "image": null,
+                        "isComponentRoot": false,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 0,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "raw": "rgba(0, 0, 0, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": null,
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 0,
+                            "raw": "0px"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": null,
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.11372549019607843,
+                                "g": 0.09411764705882353,
+                                "r": 0.08627450980392157
+                              },
+                              "raw": "rgb(22, 24, 29)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 15,
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "p",
+                        "textContent": "Sara Ahmadi"
+                      },
+                      {
+                        "attributes": {
+                          "className": "session-card-meta"
+                        },
+                        "bounds": {
+                          "height": 15,
+                          "width": 116.109375,
+                          "x": 637,
+                          "y": 278
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard"
+                        ],
+                        "image": null,
+                        "isComponentRoot": false,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 0,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "raw": "rgba(0, 0, 0, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": null,
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 0,
+                            "raw": "0px"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": null,
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.5019607843137255,
+                                "g": 0.4470588235294118,
+                                "r": 0.4196078431372549
+                              },
+                              "raw": "rgb(107, 114, 128)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 12,
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "p",
+                        "textContent": "Tomorrow, 10:00 AM"
+                      },
+                      {
+                        "attributes": {
+                          "className": "badge badge-warning"
+                        },
+                        "bounds": {
+                          "height": 23,
+                          "width": 116.109375,
+                          "x": 637,
+                          "y": 297
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard",
+                          "Badge"
+                        ],
+                        "image": null,
+                        "isComponentRoot": true,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0,
+                              "g": 0.41568627450980394,
+                              "r": 0.6901960784313725
+                            },
+                            "raw": "rgb(176, 106, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": {
+                            "bottom": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "left": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "right": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "top": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            }
+                          },
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 999,
+                            "raw": "999px"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": {
+                            "bottom": 2,
+                            "left": 8,
+                            "right": 8,
+                            "top": 2
+                          },
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 1,
+                                "g": 1,
+                                "r": 1
+                              },
+                              "raw": "rgb(255, 255, 255)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 12,
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "span",
+                        "textContent": "scheduled"
+                      }
+                    ],
+                    "componentPath": [
+                      "SessionCard"
+                    ],
+                    "image": null,
+                    "isComponentRoot": false,
+                    "style": {
+                      "backgroundColor": {
+                        "parsed": {
+                          "a": 0,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "raw": "rgba(0, 0, 0, 0)"
+                      },
+                      "backgroundImage": null,
+                      "backgroundImageUrl": null,
+                      "border": null,
+                      "boxShadow": null,
+                      "cornerRadius": {
+                        "parsedPx": 0,
+                        "raw": "0px"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "alignItems": "normal",
+                        "columnGap": 4,
+                        "direction": "column",
+                        "gap": 4,
+                        "justifyContent": "normal",
+                        "rowGap": 4,
+                        "wrap": "nowrap"
+                      },
+                      "grid": null,
+                      "gridChildPlacement": null,
+                      "layoutMode": "flex",
+                      "margin": null,
+                      "opacity": 1,
+                      "overflow": "visible",
+                      "padding": null,
+                      "position": "static",
+                      "typography": {
+                        "color": {
+                          "parsed": {
+                            "a": 1,
+                            "b": 0.5019607843137255,
+                            "g": 0.4470588235294118,
+                            "r": 0.4196078431372549
+                          },
+                          "raw": "rgb(107, 114, 128)"
+                        },
+                        "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                        "fontSizePx": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "letterSpacing": "normal",
+                        "letterSpacingPx": null,
+                        "lineHeight": "normal",
+                        "lineHeightPx": null,
+                        "textAlign": "start",
+                        "textOverflow": "clip",
+                        "whiteSpace": "normal"
+                      },
+                      "zIndex": null
+                    },
+                    "tag": "div",
+                    "textContent": null
+                  }
+                ],
+                "componentPath": [
+                  "SessionCard"
+                ],
+                "image": null,
+                "isComponentRoot": false,
+                "style": {
+                  "backgroundColor": {
+                    "parsed": {
+                      "a": 0,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "raw": "rgba(0, 0, 0, 0)"
+                  },
+                  "backgroundImage": null,
+                  "backgroundImageUrl": null,
+                  "border": null,
+                  "boxShadow": null,
+                  "cornerRadius": {
+                    "parsedPx": 0,
+                    "raw": "0px"
+                  },
+                  "display": "flex",
+                  "flex": {
+                    "alignItems": "center",
+                    "columnGap": 12,
+                    "direction": "row",
+                    "gap": 12,
+                    "justifyContent": "normal",
+                    "rowGap": 12,
+                    "wrap": "nowrap"
+                  },
+                  "grid": null,
+                  "gridChildPlacement": null,
+                  "layoutMode": "flex",
+                  "margin": null,
+                  "opacity": 1,
+                  "overflow": "visible",
+                  "padding": null,
+                  "position": "static",
+                  "typography": {
+                    "color": {
+                      "parsed": {
+                        "a": 1,
+                        "b": 0.5019607843137255,
+                        "g": 0.4470588235294118,
+                        "r": 0.4196078431372549
+                      },
+                      "raw": "rgb(107, 114, 128)"
+                    },
+                    "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                    "fontSizePx": 14,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "letterSpacing": "normal",
+                    "letterSpacingPx": null,
+                    "lineHeight": "normal",
+                    "lineHeightPx": null,
+                    "textAlign": "start",
+                    "textOverflow": "clip",
+                    "whiteSpace": "normal"
+                  },
+                  "zIndex": null
+                },
+                "tag": "div",
+                "textContent": null
+              },
+              {
+                "attributes": {
+                  "className": "session-card-actions"
+                },
+                "bounds": {
+                  "height": 35,
+                  "width": 238,
+                  "x": 577,
+                  "y": 332
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "className": "btn btn-secondary btn-medium"
+                    },
+                    "bounds": {
+                      "height": 35,
+                      "width": 115.671875,
+                      "x": 577,
+                      "y": 332
+                    },
+                    "children": [],
+                    "componentPath": [
+                      "SessionCard",
+                      "Button"
+                    ],
+                    "image": null,
+                    "isComponentRoot": true,
+                    "style": {
+                      "backgroundColor": {
+                        "parsed": {
+                          "a": 1,
+                          "b": 1,
+                          "g": 1,
+                          "r": 1
+                        },
+                        "raw": "rgb(255, 255, 255)"
+                      },
+                      "backgroundImage": null,
+                      "backgroundImageUrl": null,
+                      "border": {
+                        "bottom": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        },
+                        "left": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        },
+                        "right": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        },
+                        "top": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        }
+                      },
+                      "boxShadow": null,
+                      "cornerRadius": {
+                        "parsedPx": 10,
+                        "raw": "10px"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "alignItems": "center",
+                        "columnGap": 8,
+                        "direction": "row",
+                        "gap": 8,
+                        "justifyContent": "center",
+                        "rowGap": 8,
+                        "wrap": "nowrap"
+                      },
+                      "grid": null,
+                      "gridChildPlacement": null,
+                      "layoutMode": "flex",
+                      "margin": null,
+                      "opacity": 1,
+                      "overflow": "visible",
+                      "padding": {
+                        "bottom": 8,
+                        "left": 16,
+                        "right": 16,
+                        "top": 8
+                      },
+                      "position": "static",
+                      "typography": {
+                        "color": {
+                          "parsed": {
+                            "a": 1,
+                            "b": 0.9803921568627451,
+                            "g": 0.3803921568627451,
+                            "r": 0.10980392156862745
+                          },
+                          "raw": "rgb(28, 97, 250)"
+                        },
+                        "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                        "fontSizePx": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "600",
+                        "letterSpacing": "normal",
+                        "letterSpacingPx": null,
+                        "lineHeight": "normal",
+                        "lineHeightPx": null,
+                        "textAlign": "center",
+                        "textOverflow": "clip",
+                        "whiteSpace": "normal"
+                      },
+                      "zIndex": null
+                    },
+                    "tag": "button",
+                    "textContent": "View details"
+                  }
+                ],
+                "componentPath": [
+                  "SessionCard"
+                ],
+                "image": null,
+                "isComponentRoot": false,
+                "style": {
+                  "backgroundColor": {
+                    "parsed": {
+                      "a": 0,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "raw": "rgba(0, 0, 0, 0)"
+                  },
+                  "backgroundImage": null,
+                  "backgroundImageUrl": null,
+                  "border": null,
+                  "boxShadow": null,
+                  "cornerRadius": {
+                    "parsedPx": 0,
+                    "raw": "0px"
+                  },
+                  "display": "block",
+                  "flex": null,
+                  "grid": null,
+                  "gridChildPlacement": null,
+                  "layoutMode": "block",
+                  "margin": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 12
+                  },
+                  "opacity": 1,
+                  "overflow": "visible",
+                  "padding": null,
+                  "position": "static",
+                  "typography": {
+                    "color": {
+                      "parsed": {
+                        "a": 1,
+                        "b": 0.5019607843137255,
+                        "g": 0.4470588235294118,
+                        "r": 0.4196078431372549
+                      },
+                      "raw": "rgb(107, 114, 128)"
+                    },
+                    "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                    "fontSizePx": 14,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "letterSpacing": "normal",
+                    "letterSpacingPx": null,
+                    "lineHeight": "normal",
+                    "lineHeightPx": null,
+                    "textAlign": "start",
+                    "textOverflow": "clip",
+                    "whiteSpace": "normal"
+                  },
+                  "zIndex": null
+                },
+                "tag": "div",
+                "textContent": null
+              }
+            ],
+            "componentPath": [
+              "SessionCard"
+            ],
+            "image": null,
+            "isComponentRoot": false,
+            "style": {
+              "backgroundColor": {
+                "parsed": {
+                  "a": 0,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "raw": "rgba(0, 0, 0, 0)"
+              },
+              "backgroundImage": null,
+              "backgroundImageUrl": null,
+              "border": null,
+              "boxShadow": null,
+              "cornerRadius": {
+                "parsedPx": 0,
+                "raw": "0px"
+              },
+              "display": "block",
+              "flex": null,
+              "grid": null,
+              "gridChildPlacement": null,
+              "layoutMode": "block",
+              "margin": null,
+              "opacity": 1,
+              "overflow": "visible",
+              "padding": null,
+              "position": "static",
+              "typography": {
+                "color": {
+                  "parsed": {
+                    "a": 1,
+                    "b": 0.5019607843137255,
+                    "g": 0.4470588235294118,
+                    "r": 0.4196078431372549
+                  },
+                  "raw": "rgb(107, 114, 128)"
+                },
+                "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                "fontSizePx": 14,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": "normal",
+                "letterSpacingPx": null,
+                "lineHeight": "normal",
+                "lineHeightPx": null,
+                "textAlign": "start",
+                "textOverflow": "clip",
+                "whiteSpace": "normal"
+              },
+              "zIndex": null
+            },
+            "tag": "div",
+            "textContent": null
+          }
+        ],
+        "componentPath": [
+          "SessionCard"
+        ],
+        "image": null,
+        "isComponentRoot": true,
+        "style": {
+          "backgroundColor": {
+            "parsed": {
+              "a": 1,
+              "b": 1,
+              "g": 1,
+              "r": 1
+            },
+            "raw": "rgb(255, 255, 255)"
+          },
+          "backgroundImage": null,
+          "backgroundImageUrl": null,
+          "border": {
+            "bottom": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "left": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "right": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "top": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            }
+          },
+          "boxShadow": "rgba(16, 24, 40, 0.06) 0px 1px 2px 0px, rgba(16, 24, 40, 0.1) 0px 1px 3px 0px",
+          "cornerRadius": {
+            "parsedPx": 16,
+            "raw": "16px"
+          },
+          "display": "block",
+          "flex": null,
+          "grid": null,
+          "gridChildPlacement": null,
+          "layoutMode": "block",
+          "margin": null,
+          "opacity": 1,
+          "overflow": "visible",
+          "padding": {
+            "bottom": 16,
+            "left": 16,
+            "right": 16,
+            "top": 16
+          },
+          "position": "static",
+          "typography": {
+            "color": {
+              "parsed": {
+                "a": 1,
+                "b": 0.11372549019607843,
+                "g": 0.09411764705882353,
+                "r": 0.08627450980392157
+              },
+              "raw": "rgb(22, 24, 29)"
+            },
+            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+            "fontSizePx": 16,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "letterSpacingPx": null,
+            "lineHeight": "normal",
+            "lineHeightPx": null,
+            "textAlign": "start",
+            "textOverflow": "clip",
+            "whiteSpace": "normal"
+          },
+          "zIndex": null
+        },
+        "tag": "div",
+        "textContent": null
+      },
+      "label": "variant=status:scheduled",
+      "matchCount": 1,
+      "propValues": {
+        "status": "scheduled"
+      },
+      "screenshot": {
+        "height": 173,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/SessionCard-variant=status_scheduled.png",
+        "width": 272
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "viewportLabel": "desktop"
+    },
+    {
+      "capturedAt": "2026-09-03T08:46:59.613Z",
+      "capturedUrl": "http://localhost:5174/",
+      "contextScreenshot": {
+        "height": 900,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/SessionCard-variant=status_missed-context.png",
+        "width": 1440
+      },
+      "dom": {
+        "attributes": {
+          "className": "card"
+        },
+        "bounds": {
+          "height": 173,
+          "width": 272,
+          "x": 848,
+          "y": 239
+        },
+        "children": [
+          {
+            "attributes": {
+              "className": "card-body"
+            },
+            "bounds": {
+              "height": 111,
+              "width": 238,
+              "x": 865,
+              "y": 256
+            },
+            "children": [
+              {
+                "attributes": {
+                  "className": "session-card-row"
+                },
+                "bounds": {
+                  "height": 64,
+                  "width": 238,
+                  "x": 865,
+                  "y": 256
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "className": "session-card-avatar-wrap"
+                    },
+                    "bounds": {
+                      "height": 48,
+                      "width": 48,
+                      "x": 865,
+                      "y": 264
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "className": "avatar avatar-medium"
+                        },
+                        "bounds": {
+                          "height": 48,
+                          "width": 48,
+                          "x": 865,
+                          "y": 264
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard",
+                          "Avatar"
+                        ],
+                        "image": {
+                          "alt": "Dana Karimi",
+                          "naturalHeight": 64,
+                          "naturalWidth": 64,
+                          "src": "http://localhost:5174/avatars/dana.png"
+                        },
+                        "isComponentRoot": true,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 0,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "raw": "rgba(0, 0, 0, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": null,
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 24,
+                            "raw": "50%"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "clip",
+                          "padding": null,
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.5019607843137255,
+                                "g": 0.4470588235294118,
+                                "r": 0.4196078431372549
+                              },
+                              "raw": "rgb(107, 114, 128)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 14,
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "img",
+                        "textContent": null
+                      },
+                      {
+                        "attributes": {
+                          "className": "session-card-status-dot session-card-status-dot-danger"
+                        },
+                        "bounds": {
+                          "height": 14,
+                          "width": 14,
+                          "x": 901,
+                          "y": 300
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard"
+                        ],
+                        "image": null,
+                        "isComponentRoot": false,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.1843137254901961,
+                              "g": 0.2235294117647059,
+                              "r": 0.8274509803921568
+                            },
+                            "raw": "rgb(211, 57, 47)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": {
+                            "bottom": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "left": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "right": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "top": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            }
+                          },
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 7,
+                            "raw": "50%"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": null,
+                          "position": "absolute",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.5019607843137255,
+                                "g": 0.4470588235294118,
+                                "r": 0.4196078431372549
+                              },
+                              "raw": "rgb(107, 114, 128)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 14,
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "span",
+                        "textContent": null
+                      }
+                    ],
+                    "componentPath": [
+                      "SessionCard"
+                    ],
+                    "image": null,
+                    "isComponentRoot": false,
+                    "style": {
+                      "backgroundColor": {
+                        "parsed": {
+                          "a": 0,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "raw": "rgba(0, 0, 0, 0)"
+                      },
+                      "backgroundImage": null,
+                      "backgroundImageUrl": null,
+                      "border": null,
+                      "boxShadow": null,
+                      "cornerRadius": {
+                        "parsedPx": 0,
+                        "raw": "0px"
+                      },
+                      "display": "block",
+                      "flex": null,
+                      "grid": null,
+                      "gridChildPlacement": null,
+                      "layoutMode": "block",
+                      "margin": null,
+                      "opacity": 1,
+                      "overflow": "visible",
+                      "padding": null,
+                      "position": "relative",
+                      "typography": {
+                        "color": {
+                          "parsed": {
+                            "a": 1,
+                            "b": 0.5019607843137255,
+                            "g": 0.4470588235294118,
+                            "r": 0.4196078431372549
+                          },
+                          "raw": "rgb(107, 114, 128)"
+                        },
+                        "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                        "fontSizePx": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "letterSpacing": "normal",
+                        "letterSpacingPx": null,
+                        "lineHeight": "normal",
+                        "lineHeightPx": null,
+                        "textAlign": "start",
+                        "textOverflow": "clip",
+                        "whiteSpace": "normal"
+                      },
+                      "zIndex": null
+                    },
+                    "tag": "div",
+                    "textContent": null
+                  },
+                  {
+                    "attributes": {
+                      "className": "session-card-info"
+                    },
+                    "bounds": {
+                      "height": 64,
+                      "width": 109.21875,
+                      "x": 925,
+                      "y": 256
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "className": "session-card-name"
+                        },
+                        "bounds": {
+                          "height": 18,
+                          "width": 109.21875,
+                          "x": 925,
+                          "y": 256
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard"
+                        ],
+                        "image": null,
+                        "isComponentRoot": false,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 0,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "raw": "rgba(0, 0, 0, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": null,
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 0,
+                            "raw": "0px"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": null,
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.11372549019607843,
+                                "g": 0.09411764705882353,
+                                "r": 0.08627450980392157
+                              },
+                              "raw": "rgb(22, 24, 29)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 15,
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "p",
+                        "textContent": "Dana Karimi"
+                      },
+                      {
+                        "attributes": {
+                          "className": "session-card-meta"
+                        },
+                        "bounds": {
+                          "height": 15,
+                          "width": 109.21875,
+                          "x": 925,
+                          "y": 278
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard"
+                        ],
+                        "image": null,
+                        "isComponentRoot": false,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 0,
+                              "b": 0,
+                              "g": 0,
+                              "r": 0
+                            },
+                            "raw": "rgba(0, 0, 0, 0)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": null,
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 0,
+                            "raw": "0px"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": null,
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 0.5019607843137255,
+                                "g": 0.4470588235294118,
+                                "r": 0.4196078431372549
+                              },
+                              "raw": "rgb(107, 114, 128)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 12,
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "p",
+                        "textContent": "Yesterday, 2:00 PM"
+                      },
+                      {
+                        "attributes": {
+                          "className": "badge badge-danger"
+                        },
+                        "bounds": {
+                          "height": 23,
+                          "width": 109.21875,
+                          "x": 925,
+                          "y": 297
+                        },
+                        "children": [],
+                        "componentPath": [
+                          "SessionCard",
+                          "Badge"
+                        ],
+                        "image": null,
+                        "isComponentRoot": true,
+                        "style": {
+                          "backgroundColor": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.1843137254901961,
+                              "g": 0.2235294117647059,
+                              "r": 0.8274509803921568
+                            },
+                            "raw": "rgb(211, 57, 47)"
+                          },
+                          "backgroundImage": null,
+                          "backgroundImageUrl": null,
+                          "border": {
+                            "bottom": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "left": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "right": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            },
+                            "top": {
+                              "color": {
+                                "parsed": {
+                                  "a": 1,
+                                  "b": 1,
+                                  "g": 1,
+                                  "r": 1
+                                },
+                                "raw": "rgb(255, 255, 255)"
+                              },
+                              "style": "solid",
+                              "widthPx": 2
+                            }
+                          },
+                          "boxShadow": null,
+                          "cornerRadius": {
+                            "parsedPx": 999,
+                            "raw": "999px"
+                          },
+                          "display": "block",
+                          "flex": null,
+                          "grid": null,
+                          "gridChildPlacement": null,
+                          "layoutMode": "block",
+                          "margin": null,
+                          "opacity": 1,
+                          "overflow": "visible",
+                          "padding": {
+                            "bottom": 2,
+                            "left": 8,
+                            "right": 8,
+                            "top": 2
+                          },
+                          "position": "static",
+                          "typography": {
+                            "color": {
+                              "parsed": {
+                                "a": 1,
+                                "b": 1,
+                                "g": 1,
+                                "r": 1
+                              },
+                              "raw": "rgb(255, 255, 255)"
+                            },
+                            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                            "fontSizePx": 12,
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "letterSpacing": "normal",
+                            "letterSpacingPx": null,
+                            "lineHeight": "normal",
+                            "lineHeightPx": null,
+                            "textAlign": "start",
+                            "textOverflow": "clip",
+                            "whiteSpace": "normal"
+                          },
+                          "zIndex": null
+                        },
+                        "tag": "span",
+                        "textContent": "missed"
+                      }
+                    ],
+                    "componentPath": [
+                      "SessionCard"
+                    ],
+                    "image": null,
+                    "isComponentRoot": false,
+                    "style": {
+                      "backgroundColor": {
+                        "parsed": {
+                          "a": 0,
+                          "b": 0,
+                          "g": 0,
+                          "r": 0
+                        },
+                        "raw": "rgba(0, 0, 0, 0)"
+                      },
+                      "backgroundImage": null,
+                      "backgroundImageUrl": null,
+                      "border": null,
+                      "boxShadow": null,
+                      "cornerRadius": {
+                        "parsedPx": 0,
+                        "raw": "0px"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "alignItems": "normal",
+                        "columnGap": 4,
+                        "direction": "column",
+                        "gap": 4,
+                        "justifyContent": "normal",
+                        "rowGap": 4,
+                        "wrap": "nowrap"
+                      },
+                      "grid": null,
+                      "gridChildPlacement": null,
+                      "layoutMode": "flex",
+                      "margin": null,
+                      "opacity": 1,
+                      "overflow": "visible",
+                      "padding": null,
+                      "position": "static",
+                      "typography": {
+                        "color": {
+                          "parsed": {
+                            "a": 1,
+                            "b": 0.5019607843137255,
+                            "g": 0.4470588235294118,
+                            "r": 0.4196078431372549
+                          },
+                          "raw": "rgb(107, 114, 128)"
+                        },
+                        "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                        "fontSizePx": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "letterSpacing": "normal",
+                        "letterSpacingPx": null,
+                        "lineHeight": "normal",
+                        "lineHeightPx": null,
+                        "textAlign": "start",
+                        "textOverflow": "clip",
+                        "whiteSpace": "normal"
+                      },
+                      "zIndex": null
+                    },
+                    "tag": "div",
+                    "textContent": null
+                  }
+                ],
+                "componentPath": [
+                  "SessionCard"
+                ],
+                "image": null,
+                "isComponentRoot": false,
+                "style": {
+                  "backgroundColor": {
+                    "parsed": {
+                      "a": 0,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "raw": "rgba(0, 0, 0, 0)"
+                  },
+                  "backgroundImage": null,
+                  "backgroundImageUrl": null,
+                  "border": null,
+                  "boxShadow": null,
+                  "cornerRadius": {
+                    "parsedPx": 0,
+                    "raw": "0px"
+                  },
+                  "display": "flex",
+                  "flex": {
+                    "alignItems": "center",
+                    "columnGap": 12,
+                    "direction": "row",
+                    "gap": 12,
+                    "justifyContent": "normal",
+                    "rowGap": 12,
+                    "wrap": "nowrap"
+                  },
+                  "grid": null,
+                  "gridChildPlacement": null,
+                  "layoutMode": "flex",
+                  "margin": null,
+                  "opacity": 1,
+                  "overflow": "visible",
+                  "padding": null,
+                  "position": "static",
+                  "typography": {
+                    "color": {
+                      "parsed": {
+                        "a": 1,
+                        "b": 0.5019607843137255,
+                        "g": 0.4470588235294118,
+                        "r": 0.4196078431372549
+                      },
+                      "raw": "rgb(107, 114, 128)"
+                    },
+                    "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                    "fontSizePx": 14,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "letterSpacing": "normal",
+                    "letterSpacingPx": null,
+                    "lineHeight": "normal",
+                    "lineHeightPx": null,
+                    "textAlign": "start",
+                    "textOverflow": "clip",
+                    "whiteSpace": "normal"
+                  },
+                  "zIndex": null
+                },
+                "tag": "div",
+                "textContent": null
+              },
+              {
+                "attributes": {
+                  "className": "session-card-actions"
+                },
+                "bounds": {
+                  "height": 35,
+                  "width": 238,
+                  "x": 865,
+                  "y": 332
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "className": "btn btn-secondary btn-medium"
+                    },
+                    "bounds": {
+                      "height": 35,
+                      "width": 115.671875,
+                      "x": 865,
+                      "y": 332
+                    },
+                    "children": [],
+                    "componentPath": [
+                      "SessionCard",
+                      "Button"
+                    ],
+                    "image": null,
+                    "isComponentRoot": true,
+                    "style": {
+                      "backgroundColor": {
+                        "parsed": {
+                          "a": 1,
+                          "b": 1,
+                          "g": 1,
+                          "r": 1
+                        },
+                        "raw": "rgb(255, 255, 255)"
+                      },
+                      "backgroundImage": null,
+                      "backgroundImageUrl": null,
+                      "border": {
+                        "bottom": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        },
+                        "left": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        },
+                        "right": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        },
+                        "top": {
+                          "color": {
+                            "parsed": {
+                              "a": 1,
+                              "b": 0.9803921568627451,
+                              "g": 0.3803921568627451,
+                              "r": 0.10980392156862745
+                            },
+                            "raw": "rgb(28, 97, 250)"
+                          },
+                          "style": "solid",
+                          "widthPx": 1
+                        }
+                      },
+                      "boxShadow": null,
+                      "cornerRadius": {
+                        "parsedPx": 10,
+                        "raw": "10px"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "alignItems": "center",
+                        "columnGap": 8,
+                        "direction": "row",
+                        "gap": 8,
+                        "justifyContent": "center",
+                        "rowGap": 8,
+                        "wrap": "nowrap"
+                      },
+                      "grid": null,
+                      "gridChildPlacement": null,
+                      "layoutMode": "flex",
+                      "margin": null,
+                      "opacity": 1,
+                      "overflow": "visible",
+                      "padding": {
+                        "bottom": 8,
+                        "left": 16,
+                        "right": 16,
+                        "top": 8
+                      },
+                      "position": "static",
+                      "typography": {
+                        "color": {
+                          "parsed": {
+                            "a": 1,
+                            "b": 0.9803921568627451,
+                            "g": 0.3803921568627451,
+                            "r": 0.10980392156862745
+                          },
+                          "raw": "rgb(28, 97, 250)"
+                        },
+                        "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                        "fontSizePx": 14,
+                        "fontStyle": "normal",
+                        "fontWeight": "600",
+                        "letterSpacing": "normal",
+                        "letterSpacingPx": null,
+                        "lineHeight": "normal",
+                        "lineHeightPx": null,
+                        "textAlign": "center",
+                        "textOverflow": "clip",
+                        "whiteSpace": "normal"
+                      },
+                      "zIndex": null
+                    },
+                    "tag": "button",
+                    "textContent": "View details"
+                  }
+                ],
+                "componentPath": [
+                  "SessionCard"
+                ],
+                "image": null,
+                "isComponentRoot": false,
+                "style": {
+                  "backgroundColor": {
+                    "parsed": {
+                      "a": 0,
+                      "b": 0,
+                      "g": 0,
+                      "r": 0
+                    },
+                    "raw": "rgba(0, 0, 0, 0)"
+                  },
+                  "backgroundImage": null,
+                  "backgroundImageUrl": null,
+                  "border": null,
+                  "boxShadow": null,
+                  "cornerRadius": {
+                    "parsedPx": 0,
+                    "raw": "0px"
+                  },
+                  "display": "block",
+                  "flex": null,
+                  "grid": null,
+                  "gridChildPlacement": null,
+                  "layoutMode": "block",
+                  "margin": {
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 12
+                  },
+                  "opacity": 1,
+                  "overflow": "visible",
+                  "padding": null,
+                  "position": "static",
+                  "typography": {
+                    "color": {
+                      "parsed": {
+                        "a": 1,
+                        "b": 0.5019607843137255,
+                        "g": 0.4470588235294118,
+                        "r": 0.4196078431372549
+                      },
+                      "raw": "rgb(107, 114, 128)"
+                    },
+                    "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                    "fontSizePx": 14,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "letterSpacing": "normal",
+                    "letterSpacingPx": null,
+                    "lineHeight": "normal",
+                    "lineHeightPx": null,
+                    "textAlign": "start",
+                    "textOverflow": "clip",
+                    "whiteSpace": "normal"
+                  },
+                  "zIndex": null
+                },
+                "tag": "div",
+                "textContent": null
+              }
+            ],
+            "componentPath": [
+              "SessionCard"
+            ],
+            "image": null,
+            "isComponentRoot": false,
+            "style": {
+              "backgroundColor": {
+                "parsed": {
+                  "a": 0,
+                  "b": 0,
+                  "g": 0,
+                  "r": 0
+                },
+                "raw": "rgba(0, 0, 0, 0)"
+              },
+              "backgroundImage": null,
+              "backgroundImageUrl": null,
+              "border": null,
+              "boxShadow": null,
+              "cornerRadius": {
+                "parsedPx": 0,
+                "raw": "0px"
+              },
+              "display": "block",
+              "flex": null,
+              "grid": null,
+              "gridChildPlacement": null,
+              "layoutMode": "block",
+              "margin": null,
+              "opacity": 1,
+              "overflow": "visible",
+              "padding": null,
+              "position": "static",
+              "typography": {
+                "color": {
+                  "parsed": {
+                    "a": 1,
+                    "b": 0.5019607843137255,
+                    "g": 0.4470588235294118,
+                    "r": 0.4196078431372549
+                  },
+                  "raw": "rgb(107, 114, 128)"
+                },
+                "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+                "fontSizePx": 14,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": "normal",
+                "letterSpacingPx": null,
+                "lineHeight": "normal",
+                "lineHeightPx": null,
+                "textAlign": "start",
+                "textOverflow": "clip",
+                "whiteSpace": "normal"
+              },
+              "zIndex": null
+            },
+            "tag": "div",
+            "textContent": null
+          }
+        ],
+        "componentPath": [
+          "SessionCard"
+        ],
+        "image": null,
+        "isComponentRoot": true,
+        "style": {
+          "backgroundColor": {
+            "parsed": {
+              "a": 1,
+              "b": 1,
+              "g": 1,
+              "r": 1
+            },
+            "raw": "rgb(255, 255, 255)"
+          },
+          "backgroundImage": null,
+          "backgroundImageUrl": null,
+          "border": {
+            "bottom": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "left": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "right": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            },
+            "top": {
+              "color": {
+                "parsed": {
+                  "a": 1,
+                  "b": 0.9137254901960784,
+                  "g": 0.8941176470588236,
+                  "r": 0.8862745098039215
+                },
+                "raw": "rgb(226, 228, 233)"
+              },
+              "style": "solid",
+              "widthPx": 1
+            }
+          },
+          "boxShadow": "rgba(16, 24, 40, 0.06) 0px 1px 2px 0px, rgba(16, 24, 40, 0.1) 0px 1px 3px 0px",
+          "cornerRadius": {
+            "parsedPx": 16,
+            "raw": "16px"
+          },
+          "display": "block",
+          "flex": null,
+          "grid": null,
+          "gridChildPlacement": null,
+          "layoutMode": "block",
+          "margin": null,
+          "opacity": 1,
+          "overflow": "visible",
+          "padding": {
+            "bottom": 16,
+            "left": 16,
+            "right": 16,
+            "top": 16
+          },
+          "position": "static",
+          "typography": {
+            "color": {
+              "parsed": {
+                "a": 1,
+                "b": 0.11372549019607843,
+                "g": 0.09411764705882353,
+                "r": 0.08627450980392157
+              },
+              "raw": "rgb(22, 24, 29)"
+            },
+            "fontFamily": "Inter, \"Segoe UI\", system-ui, sans-serif",
+            "fontSizePx": 16,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "letterSpacingPx": null,
+            "lineHeight": "normal",
+            "lineHeightPx": null,
+            "textAlign": "start",
+            "textOverflow": "clip",
+            "whiteSpace": "normal"
+          },
+          "zIndex": null
+        },
+        "tag": "div",
+        "textContent": null
+      },
+      "label": "variant=status:missed",
+      "matchCount": 1,
+      "propValues": {
+        "status": "missed"
+      },
+      "screenshot": {
+        "height": 173,
+        "path": "/Users/dev/Code/reactfig/examples/sample-react-app/.reactfig/screenshots/SessionCard-variant=status_missed.png",
+        "width": 272
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "viewportLabel": "desktop"
+    }
+  ],
+  "componentName": "SessionCard",
+  "meta": {
+    "analyzerVersion": "@reactfig/mcp@0.1.0",
+    "limitations": [
+      "componentPath/isComponentRoot identify which component owns each DOM node (best-effort, via the React fiber _debugOwner chain — only available in development builds) but do not map to the specific JSX expression within that component's render — e.g. two sibling elements written in the same JSX block are distinguished by tree position, not individually labeled.",
+      "Text nodes with mixed inline styling in the rendered DOM are captured as a single ElementEvidence per DOM element; splitting into multiple Design IR Text nodes (per ADR 0005) happens in a later phase, not here.",
+      "Shadows (style.boxShadow) are preserved as a single raw CSS string per element; not parsed into structured, potentially multi-layer shadow evidence in v1."
+    ]
+  },
+  "source": {
+    "exportName": "SessionCard",
+    "file": "/Users/dev/Code/reactfig/examples/sample-react-app/src/components/SessionCard.tsx",
+    "importedComponents": [
+      {
+        "moduleSpecifier": "./Avatar.js",
+        "name": "Avatar",
+        "resolvedFile": "/Users/dev/Code/reactfig/examples/sample-react-app/src/components/Avatar.tsx"
+      },
+      {
+        "moduleSpecifier": "./Badge.js",
+        "name": "Badge",
+        "resolvedFile": "/Users/dev/Code/reactfig/examples/sample-react-app/src/components/Badge.tsx"
+      },
+      {
+        "moduleSpecifier": "./Button.js",
+        "name": "Button",
+        "resolvedFile": "/Users/dev/Code/reactfig/examples/sample-react-app/src/components/Button.tsx"
+      }
+    ],
+    "jsx": {
+      "attributes": {
+        "className": "card"
+      },
+      "children": [
+        {
+          "attributes": {
+            "className": "card-body"
+          },
+          "children": [
+            {
+              "attributes": {
+                "className": "session-card-row"
+              },
+              "children": [
+                {
+                  "attributes": {
+                    "className": "session-card-avatar-wrap"
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "alt": true,
+                        "src": true
+                      },
+                      "children": [],
+                      "tag": "Avatar"
+                    },
+                    {
+                      "attributes": {
+                        "className": true
+                      },
+                      "children": [],
+                      "tag": "span"
+                    }
+                  ],
+                  "tag": "div"
+                },
+                {
+                  "attributes": {
+                    "className": "session-card-info"
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "className": "session-card-name"
+                      },
+                      "children": [
+                        {
+                          "attributes": {},
+                          "children": [],
+                          "tag": "Expression"
+                        }
+                      ],
+                      "tag": "p"
+                    },
+                    {
+                      "attributes": {
+                        "className": "session-card-meta"
+                      },
+                      "children": [
+                        {
+                          "attributes": {},
+                          "children": [],
+                          "tag": "Expression"
+                        }
+                      ],
+                      "tag": "p"
+                    },
+                    {
+                      "attributes": {
+                        "label": true,
+                        "tone": true
+                      },
+                      "children": [],
+                      "tag": "Badge"
+                    }
+                  ],
+                  "tag": "div"
+                }
+              ],
+              "tag": "div"
+            },
+            {
+              "attributes": {
+                "className": "session-card-score"
+              },
+              "children": [
+                {
+                  "attributes": {
+                    "value": "Score:"
+                  },
+                  "children": [],
+                  "tag": "Text"
+                },
+                {
+                  "attributes": {},
+                  "children": [],
+                  "tag": "Expression"
+                },
+                {
+                  "attributes": {
+                    "value": "/9"
+                  },
+                  "children": [],
+                  "tag": "Text"
+                }
+              ],
+              "tag": "p"
+            },
+            {
+              "attributes": {
+                "className": "session-card-actions"
+              },
+              "children": [
+                {
+                  "attributes": {
+                    "size": "medium",
+                    "variant": "secondary"
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "value": "View details"
+                      },
+                      "children": [],
+                      "tag": "Text"
+                    }
+                  ],
+                  "tag": "Button"
+                }
+              ],
+              "tag": "div"
+            }
+          ],
+          "tag": "div"
+        }
+      ],
+      "tag": "div"
+    },
+    "props": [
+      {
+        "isEventHandler": false,
+        "name": "learnerName",
+        "required": true,
+        "tsType": "string"
+      },
+      {
+        "isEventHandler": false,
+        "name": "avatarSrc",
+        "required": true,
+        "tsType": "string"
+      },
+      {
+        "isEventHandler": false,
+        "literalValues": [
+          "scheduled",
+          "completed",
+          "missed"
+        ],
+        "name": "status",
+        "required": true,
+        "tsType": "\"scheduled\" | \"completed\" | \"missed\""
+      },
+      {
+        "isEventHandler": false,
+        "name": "score",
+        "required": false,
+        "tsType": "number"
+      },
+      {
+        "isEventHandler": false,
+        "name": "scheduledFor",
+        "required": true,
+        "tsType": "string"
+      }
+    ]
+  }
+}

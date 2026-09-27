@@ -1,0 +1,18 @@
+{
+  "tag": "div",
+  "attributes": { "className": "hero-banner" },
+  "textContent": null,
+  "rect": { "x": 0, "y": 0, "width": 400, "height": 160 },
+  "computedStyle": {
+    "display": "block",
+    "background-image": "url(\"/banners/welcome.jpg\")",
+    "background-color": "rgb(0, 0, 0)",
+    "border-radius": "0px",
+    "opacity": "1",
+    "overflow": "hidden"
+  },
+  "naturalWidth": null,
+  "naturalHeight": null,
+  "componentPath": ["SessionCard"],
+  "children": []
+}
