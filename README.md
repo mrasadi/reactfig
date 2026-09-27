@@ -1,5 +1,7 @@
 # ReactFig
 
+[![CI](https://github.com/reactfig/reactfig/actions/workflows/ci.yml/badge.svg)](https://github.com/reactfig/reactfig/actions/workflows/ci.yml)
+
 Turn real React UIs into editable, structured design artifacts.
 
 ReactFig captures a real interface in a real browser — DOM structure,

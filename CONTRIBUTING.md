@@ -49,6 +49,19 @@ At minimum, PRs touching:
 - the renderer need deterministic transform tests,
 - `packages/artifact` need serialize/deserialize round-trip tests.
 
+## Pull requests
+
+- Fork the repo, branch off `main`, and open a PR against `main`.
+- CI (`.github/workflows/ci.yml`) runs build, typecheck, and tests on
+  every PR — make sure `pnpm build && pnpm typecheck && pnpm test` pass
+  locally first.
+- Fill out the PR template; it links back to the "Where things belong"
+  and "Tests" sections above.
+- A maintainer reviews and merges — typically via squash-merge, so keep
+  your PR description accurate; it becomes the merge commit message.
+- By participating, you're expected to follow the
+  [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## Reporting issues
 
 Please include: the React component/pattern that didn't convert correctly,
