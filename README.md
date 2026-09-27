@@ -1,6 +1,6 @@
 # ReactFig
 
-[![CI](https://github.com/reactfig/reactfig/actions/workflows/ci.yml/badge.svg)](https://github.com/reactfig/reactfig/actions/workflows/ci.yml)
+[![CI](https://github.com/mrasadi/reactfig/actions/workflows/ci.yml/badge.svg)](https://github.com/mrasadi/reactfig/actions/workflows/ci.yml)
 
 Turn real React UIs into editable, structured design artifacts.
 
@@ -34,7 +34,7 @@ and [docs/README.md](docs/README.md) for everything else in `docs/`.
 Requires Node ≥ 20 and pnpm ≥ 9.
 
 ```bash
-git clone https://github.com/reactfig/reactfig.git
+git clone https://github.com/mrasadi/reactfig.git
 cd reactfig
 pnpm install
 pnpm build
