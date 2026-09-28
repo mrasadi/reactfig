@@ -61,13 +61,33 @@ import { resolveComponentBoundary } from "@reactfig/analyzer";
  * render on some app, there's now an actual data point to debug from
  * instead of another guess.
  */
+/**
+ * Bumped whenever the overlay's UI/behavior changes. The overlay script
+ * is idempotent per page (a second injection is skipped), so without a
+ * version a page that already ran an older build would silently keep
+ * showing the old UI after an upgrade — see the guard at the top of the
+ * generated script. Also logged on injection and in the on-page
+ * diagnostic so it's obvious which build is actually running.
+ */
+export const OVERLAY_VERSION = "2";
+
 export function buildOverlayScript(): string {
   const resolveComponentBoundarySource = resolveComponentBoundary.toString();
 
   return `
 (function () {
-  if (window.__reactfigOverlayInstalled) return;
-  window.__reactfigOverlayInstalled = true;
+  var OVERLAY_VERSION = "${OVERLAY_VERSION}";
+  if (window.__reactfigOverlayInstalled === OVERLAY_VERSION) return;
+  if (window.__reactfigOverlayInstalled) {
+    // An OLDER overlay build is still alive in this page (it has no
+    // teardown hook, and its own timer re-attaches its host if removed),
+    // so hide it instead of fighting it, then install this build.
+    var staleHosts = document.querySelectorAll("[data-reactfig-overlay-host]");
+    for (var i = 0; i < staleHosts.length; i++) {
+      staleHosts[i].style.setProperty("display", "none", "important");
+    }
+  }
+  window.__reactfigOverlayInstalled = OVERLAY_VERSION;
 
   var resolveComponentBoundary = (${resolveComponentBoundarySource});
   var MARKER_ATTR = "data-reactfig-pending-selection";
@@ -75,7 +95,8 @@ export function buildOverlayScript(): string {
   var state = {
     active: false,
     pending: null, // resolved ComponentBoundaryResult while previewing, before confirm
-    pendingOutputFormat: "rfd", // Output Intent picker's current value — see renderPreview/confirmPending
+    pendingOutputFormat: "rfd", // Output Intent select's current value — see buildOutputSelect/confirmPending
+    outputMenuOpen: false, // whether the settings-area output select's option list is expanded
     markingDone: false, // true between clicking Done/Continue and the browser closing — see renderPanel/__reactfigMarkDone
     selections: [], // [{selectionId, order, status, componentPath, url}], pushed from Node via applyState
     minimized: false,
@@ -158,6 +179,29 @@ export function buildOverlayScript(): string {
     '.preview .actions{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}' +
     '.highlight{position:fixed;pointer-events:none;border:2px solid #4f7cff;background:rgba(79,124,255,.12);' +
     'border-radius:2px}' +
+    '.settings{margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid #333}' +
+    '.field-label{display:block;font-size:10px;letter-spacing:.06em;text-transform:uppercase;opacity:.55;margin-bottom:4px}' +
+    '.select{position:relative}' +
+    '.select-trigger{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:8px;width:100%;' +
+    'background:#2c2c33;border:1px solid #3a3a42;border-radius:6px;padding:6px 8px;cursor:pointer;' +
+    'color:#f4f4f5;font-size:12px}' +
+    '.select-trigger:hover{background:#34343c}' +
+    '.select-trigger:focus-visible{outline:2px solid #4f7cff;outline-offset:1px}' +
+    '.select.open .select-trigger{border-color:#4f7cff}' +
+    '.select-value{font-weight:600}' +
+    '.select-hint{opacity:.55;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}' +
+    '.chevron{margin-left:auto;opacity:.7;font-size:10px;transition:transform .12s}' +
+    '.select.open .chevron{transform:rotate(180deg)}' +
+    '.select-menu{display:none;margin-top:4px;padding:4px;background:#23232a;border:1px solid #3a3a42;border-radius:6px}' +
+    '.select.open .select-menu{display:block}' +
+    '.select-option{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:8px;width:100%;' +
+    'padding:6px 8px;border-radius:4px;cursor:pointer;font-size:12px;color:#f4f4f5}' +
+    '.select-option:hover,.select-option:focus-visible{background:#34343c}' +
+    '.select-option[aria-selected="true"]{background:rgba(79,124,255,.18)}' +
+    '.select-check{width:12px;flex-shrink:0;color:#4f7cff;font-size:11px;visibility:hidden}' +
+    '.select-option[aria-selected="true"] .select-check{visibility:visible}' +
+    '.chip{background:rgba(79,124,255,.18);color:#9db7ff;border-radius:4px;padding:1px 6px;font-size:10px;' +
+    'font-weight:600;letter-spacing:.04em;flex-shrink:0}' +
     '.dim{opacity:.7}';
   shadow.appendChild(style);
 
@@ -256,8 +300,174 @@ export function buildOverlayScript(): string {
   document.addEventListener("pointerup", endDrag);
   document.addEventListener("pointercancel", endDrag);
 
+  // --- Output format select ---------------------------------------
+  // Custom listbox (button trigger + inline option list) instead of the
+  // browser-native <select>, so it matches the rest of the panel and
+  // lives in the always-visible settings area rather than the
+  // per-selection preview. The list expands inside the panel's own flow
+  // on purpose: an absolutely positioned dropdown would be clipped by
+  // the panel's overflow:auto / max-height.
+  var OUTPUT_OPTIONS = [
+    { value: "rfd", label: "RFD", hint: "Figma import artifact" },
+    { value: "json", label: "JSON", hint: "Design IR document" },
+    { value: "svg", label: "SVG", hint: "Static vector render" },
+    { value: "html", label: "HTML", hint: "Standalone HTML page" }
+  ];
+  var outputSelectEl = null;
+  var focusOutputTriggerAfterRender = false;
+
+  function currentOutputOption() {
+    for (var i = 0; i < OUTPUT_OPTIONS.length; i++) {
+      if (OUTPUT_OPTIONS[i].value === state.pendingOutputFormat) return OUTPUT_OPTIONS[i];
+    }
+    return OUTPUT_OPTIONS[0];
+  }
+
+  // Toggles the option list in place (no panel re-render), so a click
+  // on another panel button while the list is open is never swallowed
+  // by a DOM rebuild between pointerdown and click.
+  function setOutputMenuOpen(open) {
+    state.outputMenuOpen = open;
+    if (!outputSelectEl) return;
+    outputSelectEl.classList.toggle("open", open);
+    var trigger = outputSelectEl.querySelector(".select-trigger");
+    if (trigger) trigger.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+
+  function chooseOutputFormat(value) {
+    state.pendingOutputFormat = value;
+    state.outputMenuOpen = false;
+    focusOutputTriggerAfterRender = true;
+    renderPanel();
+    if (state.pending) renderPreview();
+  }
+
+  function buildOutputSelect() {
+    var current = currentOutputOption();
+
+    var wrap = document.createElement("div");
+    wrap.className = "select" + (state.outputMenuOpen ? " open" : "");
+    outputSelectEl = wrap;
+
+    var trigger = document.createElement("button");
+    trigger.type = "button";
+    trigger.className = "select-trigger";
+    trigger.setAttribute("role", "combobox");
+    trigger.setAttribute("aria-haspopup", "listbox");
+    trigger.setAttribute("aria-expanded", state.outputMenuOpen ? "true" : "false");
+    trigger.setAttribute("aria-label", "Output format: " + current.label);
+
+    var value = document.createElement("span");
+    value.className = "select-value";
+    value.textContent = current.label;
+    trigger.appendChild(value);
+
+    var hint = document.createElement("span");
+    hint.className = "select-hint";
+    hint.textContent = current.hint;
+    trigger.appendChild(hint);
+
+    var chevron = document.createElement("span");
+    chevron.className = "chevron";
+    chevron.setAttribute("aria-hidden", "true");
+    chevron.textContent = "\\u25BE";
+    trigger.appendChild(chevron);
+
+    var menu = document.createElement("div");
+    menu.className = "select-menu";
+    menu.setAttribute("role", "listbox");
+    menu.setAttribute("aria-label", "Output format");
+
+    var optionEls = [];
+    OUTPUT_OPTIONS.forEach(function (opt) {
+      var item = document.createElement("button");
+      item.type = "button";
+      item.className = "select-option";
+      item.tabIndex = -1;
+      item.setAttribute("role", "option");
+      item.setAttribute("data-value", opt.value);
+      item.setAttribute("aria-selected", opt.value === current.value ? "true" : "false");
+
+      var check = document.createElement("span");
+      check.className = "select-check";
+      check.setAttribute("aria-hidden", "true");
+      check.textContent = "\\u2713";
+      item.appendChild(check);
+
+      var label = document.createElement("span");
+      label.className = "select-value";
+      label.textContent = opt.label;
+      item.appendChild(label);
+
+      var optHint = document.createElement("span");
+      optHint.className = "select-hint";
+      optHint.textContent = opt.hint;
+      item.appendChild(optHint);
+
+      item.onclick = function () { chooseOutputFormat(opt.value); };
+      menu.appendChild(item);
+      optionEls.push(item);
+    });
+
+    function focusOptionAt(index) {
+      var target = optionEls[(index + optionEls.length) % optionEls.length];
+      if (target) target.focus();
+    }
+
+    function currentIndex() {
+      for (var i = 0; i < OUTPUT_OPTIONS.length; i++) {
+        if (OUTPUT_OPTIONS[i].value === current.value) return i;
+      }
+      return 0;
+    }
+
+    trigger.onclick = function () { setOutputMenuOpen(!state.outputMenuOpen); };
+    trigger.onkeydown = function (e) {
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        e.preventDefault();
+        e.stopPropagation();
+        setOutputMenuOpen(true);
+        focusOptionAt(currentIndex());
+      } else if (e.key === "Escape" && state.outputMenuOpen) {
+        e.preventDefault();
+        e.stopPropagation();
+        setOutputMenuOpen(false);
+      }
+    };
+    menu.onkeydown = function (e) {
+      var i = optionEls.indexOf(e.target);
+      if (e.key === "ArrowDown") focusOptionAt(i + 1);
+      else if (e.key === "ArrowUp") focusOptionAt(i - 1);
+      else if (e.key === "Home") focusOptionAt(0);
+      else if (e.key === "End") focusOptionAt(optionEls.length - 1);
+      else if (e.key === "Escape") { setOutputMenuOpen(false); trigger.focus(); }
+      else if (e.key === "Tab") { setOutputMenuOpen(false); return; }
+      else return;
+      e.preventDefault();
+      e.stopPropagation();
+    };
+
+    wrap.appendChild(trigger);
+    wrap.appendChild(menu);
+    return wrap;
+  }
+
+  // Close the option list on any press outside it (in place — see
+  // setOutputMenuOpen for why this never re-renders the panel).
+  document.addEventListener(
+    "pointerdown",
+    function (e) {
+      if (!state.outputMenuOpen || !outputSelectEl) return;
+      var path = typeof e.composedPath === "function" ? e.composedPath() : [];
+      if (path.indexOf(outputSelectEl) !== -1) return;
+      setOutputMenuOpen(false);
+    },
+    true
+  );
+
   function renderPanel() {
     panel.innerHTML = "";
+    outputSelectEl = null;
     panel.classList.toggle("minimized", state.minimized);
 
     var active = state.selections.filter(function (s) { return s.status !== "removed"; });
@@ -287,8 +497,17 @@ export function buildOverlayScript(): string {
     minimizeBtn.textContent = state.minimized ? "\\u25A2" : "\\u2013";
     minimizeBtn.onclick = function () {
       state.minimized = !state.minimized;
+      state.outputMenuOpen = false;
       renderPanel();
     };
+    if (state.minimized) {
+      // Keeps the chosen output format visible even while collapsed.
+      var chip = document.createElement("span");
+      chip.className = "chip";
+      chip.title = "Output format: " + currentOutputOption().label;
+      chip.textContent = currentOutputOption().label;
+      header.appendChild(chip);
+    }
     header.appendChild(minimizeBtn);
 
     if (!state.minimized) {
@@ -309,6 +528,15 @@ export function buildOverlayScript(): string {
 
     var body = document.createElement("div");
     body.className = "body";
+
+    var settings = document.createElement("div");
+    settings.className = "settings";
+    var settingsLabel = document.createElement("span");
+    settingsLabel.className = "field-label";
+    settingsLabel.textContent = "Output format";
+    settings.appendChild(settingsLabel);
+    settings.appendChild(buildOutputSelect());
+    body.appendChild(settings);
 
     var hint = document.createElement("div");
     hint.className = "hint";
@@ -367,6 +595,11 @@ export function buildOverlayScript(): string {
     }
 
     panel.appendChild(body);
+    if (focusOutputTriggerAfterRender) {
+      focusOutputTriggerAfterRender = false;
+      var selectTrigger = outputSelectEl && outputSelectEl.querySelector(".select-trigger");
+      if (selectTrigger) selectTrigger.focus();
+    }
     if (state.pending) positionPreviewNextToPanel();
   }
 
@@ -389,29 +622,13 @@ export function buildOverlayScript(): string {
     sel.textContent = state.pending.selector;
     previewBox.appendChild(sel);
 
-    // Output Intent picker (docs/architecture.md's Output Intent section)
-    // — persisted onto this selection when confirmed; defaults to
-    // whatever was last picked (or "rfd", the pipeline-wide backward-
-    // compatible default) so repeated captures don't require re-picking
-    // every time.
+    // Read-only echo of the format chosen in the panel's settings area
+    // (see buildOutputSelect). The control itself lives there so it is
+    // always visible, not only while a selection is being previewed.
     var outputRow = document.createElement("div");
     outputRow.className = "dim";
     outputRow.style.marginTop = "6px";
-    var outputLabel = document.createElement("span");
-    outputLabel.textContent = "Output: ";
-    outputRow.appendChild(outputLabel);
-    var outputSelect = document.createElement("select");
-    ["rfd", "json", "svg", "html"].forEach(function (fmt) {
-      var opt = document.createElement("option");
-      opt.value = fmt;
-      opt.textContent = fmt.toUpperCase();
-      if (fmt === state.pendingOutputFormat) opt.selected = true;
-      outputSelect.appendChild(opt);
-    });
-    outputSelect.onchange = function () {
-      state.pendingOutputFormat = outputSelect.value;
-    };
-    outputRow.appendChild(outputSelect);
+    outputRow.textContent = "Output: " + currentOutputOption().label;
     previewBox.appendChild(outputRow);
 
     var actions = document.createElement("div");
@@ -550,6 +767,7 @@ export function buildOverlayScript(): string {
     var panelRect = panel.getBoundingClientRect();
     var hostStyle = window.getComputedStyle(host);
     console.log("[reactfig] overlay diagnostic", {
+      overlayVersion: OVERLAY_VERSION,
       attached: document.documentElement.contains(host),
       popoverSupported: supportsPopover,
       popoverOpen: supportsPopover && typeof host.matches === "function" ? host.matches(":popover-open") : null,
