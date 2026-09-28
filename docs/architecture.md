@@ -294,9 +294,10 @@ a short pointer for where each piece actually lives.
 
 **Output Intent** — `CollectionManifest.output` / `CollectionSelection.output`
 (`collection/types.ts`), resolved by `resolveOutputFormat` (override →
-collection default → `"rfd"`). The overlay's confirm-preview panel
-(`collection/overlayScript.ts`) exposes a `<select>` for it per
-selection. `Design IR -> Output selection -> Renderer/Exporter`
+collection default → `"rfd"`). The overlay (`collection/overlayScript.ts`)
+exposes a custom select for it in the panel's always-visible settings
+area (mirrored as a chip when minimized, and echoed read-only in the
+confirm preview); the chosen format is stored per selection on confirm. `Design IR -> Output selection -> Renderer/Exporter`
 (`@reactfig/artifact/src/export/`: `renderJson` / `renderSvg` /
 `renderHtml` / `renderOutput`) is the actual dispatch; the new MCP tool
 `export_design_output` is the entry point most callers use, with

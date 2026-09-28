@@ -178,8 +178,8 @@ exactly as before.
   The developer takes over from there: log in, navigate freely, and turn
   on selection mode whenever ready to click something (DevTools-style
   hover highlight, then a preview with Confirm/↑ Parent/↓ Child/Cancel,
-  and — since ADR 0027 — an output-format picker, see "Output Intent"
-  below). An optional `defaultOutputFormat` sets the collection-wide
+  and — since ADR 0027 — an output-format select that stays visible in
+  the panel's settings area, see "Output Intent" below). An optional `defaultOutputFormat` sets the collection-wide
   default. Selections persist immediately on confirm — the browser is a
   capture surface, not something anything downstream depends on staying
   open.

@@ -6,11 +6,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactfig/reactfig.git"
+    "url": "git+https://github.com/mrasadi/reactfig.git"
   },
-  "homepage": "https://github.com/reactfig/reactfig#readme",
+  "homepage": "https://github.com/mrasadi/reactfig#readme",
   "bugs": {
-    "url": "https://github.com/reactfig/reactfig/issues"
+    "url": "https://github.com/mrasadi/reactfig/issues"
   },
   "keywords": [
     "react",

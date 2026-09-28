@@ -3,7 +3,7 @@ import { collectDomSnapshot, debugLog } from "@reactfig/analyzer";
 import { createPlaywrightSession } from "../playwrightSession.js";
 import { CollectionSession, summarize } from "./collectionSession.js";
 import type { OutputFormat } from "./types.js";
-import { buildOverlayScript } from "./overlayScript.js";
+import { buildOverlayScript, OVERLAY_VERSION } from "./overlayScript.js";
 import { writeContinuationSignal, type ContinuationBridge } from "./continuation.js";
 
 export interface InteractiveBrowserOptions {
@@ -163,6 +163,7 @@ export async function attachInteractiveBrowser(session: CollectionSession, optio
   // whatever's already loaded right now, so the overlay is present
   // immediately without requiring the developer to reload first.
   await page.evaluate(overlaySource);
+  debugLog("collection: overlay injected", { overlayVersion: OVERLAY_VERSION });
   await pushStateToOverlay();
 
   return {

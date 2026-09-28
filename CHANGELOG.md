@@ -9,6 +9,30 @@
 > still accurate and worth reading if you're tracking down when a
 > specific fix landed.
 
+## Unreleased
+
+### Changed
+
+- **Interactive Capture: output format is now a custom select in the
+  panel's settings area.** It used to be a browser-native `<select>`
+  inside the per-selection confirm preview, so the chosen format was only
+  visible while a selection was being previewed. It's now a styled,
+  keyboard-accessible select under an "Output format" label at the top of
+  the capture panel — always visible, with the current format also shown
+  as a chip when the panel is minimized and echoed read-only in the
+  confirm preview. The chosen format is still stored on each selection
+  when confirmed. Verified against the generated overlay script in jsdom;
+  visual rendering in a real browser is still unverified, same as the
+  rest of the overlay (see ADR 0026 / 0027).
+- **Interactive Capture overlay is now version-guarded.** The overlay
+  script used to skip injection whenever a page had already run *any*
+  earlier build, so an upgraded server could keep showing the old UI in a
+  page that was already open. It now carries a version: an older overlay
+  found in the page is hidden and the current one installed. The version
+  is logged (`collection: overlay injected`, with `REACTFIG_DEBUG=true`)
+  and included in the on-page `[reactfig] overlay diagnostic` console
+  line, so it's easy to tell which build is running.
+
 ## v0.1.0 — Initial public release
 
 ReactFig is now open source. This release is a snapshot of the pipeline
